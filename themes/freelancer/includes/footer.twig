@@ -6,14 +6,14 @@
                 <div class="row">
                     {% if pages.index.meta.address %}
                         <div class="footer-col col-md-4">
-                            <h3>Location</h3>
+                            <h3>{{ pages.index.meta.address.title }}</h3>
                             <p>{{ pages.index.meta.address.street }}
-                                <br>{{ pages.index.meta.address.city }}, {{ pages.index.meta.address.state }} {{ pages.index.meta.address.zip }}</p>
+                                <br>{{ pages.index.meta.address.city }}, {{ pages.index.meta.address.state }} {{ pages.index.meta.address.zip }}, {{ pages.index.meta.address.country }} </p>
                         </div>
                     {% endif %}
                     {% if pages.index.meta.social %}
                         <div class="footer-col col-md-4">
-                            <h3>Around the Web</h3>
+                            <h3>Social & Web</h3>
                             <ul class="list-inline">
                                 {% set social_urls = {
                                     'facebook': 'https://www.facebook.com/',
@@ -24,7 +24,7 @@
                                 } %}
                                 {% for site,social in pages.index.meta.social %}
                                     <li>
-                                        <a href="{% if site != 'skype' %}{{ social_urls[site] }}{{ social }}{% else %}skype:{{ social }}?call{% endif %}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ site }}"></i></a>
+                                        <a target="_blank" href="{% if site != 'skype' %}{{ social_urls[site] }}{{ social }}{% else %}skype:{{ social }}?call{% endif %}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ site }}"></i></a>
                                     </li>
                                 {% endfor %}
                             </ul>

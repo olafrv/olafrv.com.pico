@@ -1,0 +1,67 @@
+title: Compile linux-* kernel packages
+link: https://www.olafrv.com/wordpress/compile-linux-kernel-packages/
+author: chanchito
+description: 
+post_id: 119
+created: 2010/02/26 06:02:30
+created_gmt: 2010/02/26 06:02:30
+comment_status: open
+post_name: compile-linux-kernel-packages
+status: publish
+post_type: post
+
+# Compile linux-* kernel packages
+
+In Debian Like Systems it goes like this… **Installing need packages**
+    
+    
+    apt-get install kernel-package libncurses5-dev fakInstalling need packageseroot wget bzip2 build-essential
+    
+
+**Download and decompress the kernel from kernel.org**
+    
+    
+    wget http://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.22.3.tar.bz2
+    bzip2 -d linux-2.6.22.3.tar.bz2
+    tar xvf linux-2.6.22.3.tar.bz2
+    
+
+**Configure the source for compilation**
+    
+    
+    cd /usr/src/linux-2.6.22-3
+    make clean && make mrproper
+    cp /boot/config-`uname -r` ./.config
+    make menuconfig
+    
+
+> Load alternate file > .config > ESC > Save? Yes
+
+**Compiling**
+    
+    
+    make-kpkg clean
+    fakeroot make-kpkg –initrd –append-to-version=-custom kernel_image kernel_headers
+    
+
+**Installing new linux-headers package**
+    
+    
+    cd /usr/src
+    dpkg -i linux-headers-2.6.22.3-custom.deb
+    dpkg -i linux-image-2.6.22.3-custom.deb
+    
+
+**Reconfiguring using new kernel (before boot or install linux-image)**
+    
+    
+    export KERN_DIR=/usr/src/linux-headers-2.6.22.3/
+    
+
+Use the new kernel headers to configure you application, in my case Virtualbox 
+    
+    
+    /etc/init.d/vboxdrv setup
+    
+
+Regards. :-)

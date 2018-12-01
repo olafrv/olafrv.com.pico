@@ -1,7 +1,7 @@
 ---
 profile: assets/profile.png # Profile Picture for Header
 og_image: assets/profile.png # Open Graph Image for Link Previews
-description: Cloud Native Solution Architect - Full Stack Software Developer
+description: Hybrid IT Solution Architect - Full Stack Software Developer
 about_text: About # About Heading
 about_1: Working at <a target="_blank" href="https://www.daycohost.com" class="link-w-s">Daycohost</a> as <b>Chief Solution Architect (CSA)</b>. <br><br> Check my history &amp; <b>curriculum vitae (<a href="?cv/en" class="link-w-s">English</a>, <a href="?cv/es" class="link-w-s">Espa&ntilde;ol</a>)</b>. <br><br>Follow me on my social networks bellow, or check my <a target="_blank" href="https://www.linkedin.com/in/olafrv/" class="link-w-s">Linkedin</a> profile.
 about_2: <img src="/pico/assets/olaf_daycohost.jpg" height="250px">

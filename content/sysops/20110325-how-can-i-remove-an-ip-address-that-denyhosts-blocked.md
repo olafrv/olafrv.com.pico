@@ -19,7 +19,7 @@ Just with this script:
     # FILE: denyhosts-remove.sh (2011/Abr/06)
     # AUTHOR: Olaf Reitmaier Veracieta
     # USE: How can I remove an IP address that DenyHosts blocked?
-    #      http://denyhosts.sourceforge.net/faq.html#3_19
+    #      https://denyhosts.sourceforge.net/faq.html#3_19
     # WARNING: Tested on Debian Squeeze
     ##
     

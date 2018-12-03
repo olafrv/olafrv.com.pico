@@ -14,7 +14,7 @@ post_type: post
 
 # MD5, SHA-1 hash sums in Java 2
 
-[Download HashSum.java](http://www.olafrv.com/wp-content/uploads/2010/02/HashSum.java_.zip)
+[Download HashSum.java](https://www.olafrv.com/wp-content/uploads/2010/02/HashSum.java_.zip)
     
     
     /**

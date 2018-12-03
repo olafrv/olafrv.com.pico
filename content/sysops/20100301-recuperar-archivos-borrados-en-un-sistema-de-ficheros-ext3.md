@@ -12,7 +12,7 @@ post_type: post
 
 # Recuperar archivos borrados en un sistema de ficheros ext3
 
-Si se sabe la **ruta del archivo borrado** **(no sirve con directorios)** se puede hacer lo siguiente (me funcionó con unos archivos .php). Descargar el código fuente del programa** ext3grep** en <http://code.google.com/p/ext3grep/> Instalar las librerías necesarias, generalmente basta con: 
+Si se sabe la **ruta del archivo borrado** **(no sirve con directorios)** se puede hacer lo siguiente (me funcionó con unos archivos .php). Descargar el código fuente del programa** ext3grep** en <https://code.google.com/p/ext3grep/> Instalar las librerías necesarias, generalmente basta con: 
     
     
     apt-get install e2fslibs-dev

@@ -21,7 +21,7 @@ In Debian Like Systems it goes like this… **Installing need packages**
 **Download and decompress the kernel from kernel.org**
     
     
-    wget http://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.22.3.tar.bz2
+    wget https://www.kernel.org/pub/linux/kernel/v2.6/linux-2.6.22.3.tar.bz2
     bzip2 -d linux-2.6.22.3.tar.bz2
     tar xvf linux-2.6.22.3.tar.bz2
     

@@ -21,7 +21,7 @@ In Debian Lenny (Stable) the GRUB 2 version is 1.96 and is still without passwor
     # USAGE: Set GRUB 1 and 2 superuser (root) password,
     #        must be run manually after each kernel upgrade.
     # AUTHOR: Olaf Reitmaier Veracierta 
-    # REFERENCE: http://www.gnu.org/software/grub/manual/
+    # REFERENCE: https://www.gnu.org/software/grub/manual/
     # LICENSE: GNU/GPL v3 or superior
     ##
     

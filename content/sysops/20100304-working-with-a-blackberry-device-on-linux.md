@@ -14,7 +14,7 @@ post_type: post
 
 > This software and task have been tested on a Blackberry (bb) 8520 device
 
-First, you must download and install "Barry" a suite of blackberry tools for GNU/Linux: <http://sourceforge.net/projects/barry/> Then, you must install all downloaded packages for debian (ubuntu) such as: 
+First, you must download and install "Barry" a suite of blackberry tools for GNU/Linux: <https://sourceforge.net/projects/barry/> Then, you must install all downloaded packages for debian (ubuntu) such as: 
 
 > barry-util barrybackup-gui libbarry0 opensync-plugin-barry opensync-plugin-barry-dbg 
 

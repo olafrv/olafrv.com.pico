@@ -12,12 +12,12 @@ post_type: post
 
 # Instalando Canaima 2.0.4 vía Pendrive USB en Laptop HP Mini 110 1020la
 
-![](http://blog.olafrv.com/wp-content/uploads/2010/02/IMG00159-20100225-0003-300x225.jpg) **REQUERIMIENTOS**
+![](https://blog.olafrv.com/wp-content/uploads/2010/02/IMG00159-20100225-0003-300x225.jpg) **REQUERIMIENTOS**
 
   1. GNU/Linux (Tipo Debian) instalado.
   2. Pendrive USB de 2.0 GBytes.
-  3. Archivo TAR.GZ con[ imagen de GNU/Linux Canaima en Vivo](   http://canaima.softwarelibre.gob.ve:8080/canaima_cms/descargas/canaima-vivo-usb/releases/2.0  )
-  4. Archivo ZIP con [imagen de GNU/Linux Gparted ](http://gparted.sourceforge.net/livecd.php)
+  3. Archivo TAR.GZ con[ imagen de GNU/Linux Canaima en Vivo](   https://canaima.softwarelibre.gob.ve:8080/canaima_cms/descargas/canaima-vivo-usb/releases/2.0  )
+  4. Archivo ZIP con [imagen de GNU/Linux Gparted ](https://gparted.sourceforge.net/livecd.php)
 
  
 
@@ -78,10 +78,10 @@ Bootear con el pendrive e instalar canaima en el espacio libre.
 
 > 01:00.0 Network controller: Broadcom Corporation BCM4312 802.11b/g (rev 01)
 
-Pueden seguir este procedimiento: [Haciendo funcionar Broadcom 4312 en GNU/Linux](http://blog.0x29.com.ve/?p=118), igual describo aquí como funcionó en mi caso: Descargar el controlador aquí: <http://www.broadcom.com/support/802.11/linux_sta.php> o desde aquí mismo: 
+Pueden seguir este procedimiento: [Haciendo funcionar Broadcom 4312 en GNU/Linux](https://blog.0x29.com.ve/?p=118), igual describo aquí como funcionó en mi caso: Descargar el controlador aquí: <https://www.broadcom.com/support/802.11/linux_sta.php> o desde aquí mismo: 
 
-  * [hybrid-portsrc-x86_32-v5.60.48.36.tar.gz](http://www.olafrv.com/wp-content/uploads/2010/02/hybrid-portsrc-x86_32-v5.60.48.36.tar.gz)
-  * [hybrid-portsrc-x86_64-v5.60.48.36](http://www.olafrv.com/wp-content/uploads/2010/02/hybrid-portsrc-x86_64-v5.60.48.36.tar.gz)
+  * [hybrid-portsrc-x86_32-v5.60.48.36.tar.gz](https://www.olafrv.com/wp-content/uploads/2010/02/hybrid-portsrc-x86_32-v5.60.48.36.tar.gz)
+  * [hybrid-portsrc-x86_64-v5.60.48.36](https://www.olafrv.com/wp-content/uploads/2010/02/hybrid-portsrc-x86_64-v5.60.48.36.tar.gz)
 Luego, 
     
     
@@ -105,8 +105,8 @@ Añadir las siguientes líneas a /etc/modules
 
 Descargar el controlador desde aquí: 
 
-  * <http://www.jfwhome.com/wp-content/uploads/2009/08/atheros-wired-driver-1005ha-linux.zip>
-  * <http://www.olafrv.com/wp-content/uploads/2010/02/atheros-wired-driver-1005ha-linux.zip>
+  * <https://www.jfwhome.com/wp-content/uploads/2009/08/atheros-wired-driver-1005ha-linux.zip>
+  * <https://www.olafrv.com/wp-content/uploads/2010/02/atheros-wired-driver-1005ha-linux.zip>
 Luego, 
     
     
@@ -120,7 +120,7 @@ Luego,
 
 > **00:1b.0 Audio device: Intel Corporation 82801G (ICH7 Family) High Definition Audio Controller (rev 02)**
 
-> Cito textualmente a** apostols**: La versión de ALSA (1.0.17) que tiene Debian Lenny/Canaima no tiene buen soporte para esta tarjeta de sonido, solo tenemos que descargar una nueva versión del driver (empaquetado por la gente de LinuxANT) de: http://www.linuxant.com/alsa-driver/archive/alsa-driver-linuxant-1.0.20.3/alsa-driver-linuxant_1.0.20.3_all.deb.zip, y hacer: 
+> Cito textualmente a** apostols**: La versión de ALSA (1.0.17) que tiene Debian Lenny/Canaima no tiene buen soporte para esta tarjeta de sonido, solo tenemos que descargar una nueva versión del driver (empaquetado por la gente de LinuxANT) de: https://www.linuxant.com/alsa-driver/archive/alsa-driver-linuxant-1.0.20.3/alsa-driver-linuxant_1.0.20.3_all.deb.zip, y hacer: 
     
     
     unzip alsa-driver-linuxant_1.0.20.3_all.deb.zip
@@ -139,15 +139,15 @@ Luego,
 
 **REFERENCIAS**
 
-  1. [GParted Live on USB](http://gparted.sourceforge.net/liveusb.php)
-  2. [Instalador USB para GNU/Linux Canaima](http://damncorner.blogspot.com/2009/07/instalador-usb-para-gnulinux-canaima.html)
-  3. [Corriendo Canaima GNU/Linux 2.0.3 en una HP Mini 110-1020LA](http://apostols.net/?p=148)
+  1. [GParted Live on USB](https://gparted.sourceforge.net/liveusb.php)
+  2. [Instalador USB para GNU/Linux Canaima](https://damncorner.blogspot.com/2009/07/instalador-usb-para-gnulinux-canaima.html)
+  3. [Corriendo Canaima GNU/Linux 2.0.3 en una HP Mini 110-1020LA](https://apostols.net/?p=148)
 
 ## Comments
 
 **[jose del carmen acosta acosta](#6 "2010-03-04 06:18:39"):** saludos revolucionario, tengo instalado ubunto pero necesito el driver de kyocera que ubuntu lo acecte, pues en widows estoy utilisando el telefono como modems para conectarme en internet y el mismo driver que estoy utilisando no lo pirmite ubuntu, quicera qe si alguno sabe como uvicar el driver de kyocera E2000 para UBUNTU, por aganmelo saber se los agradecere.
 
-**[Olaf Reitmaier Veracierta](#7 "2010-03-04 07:48:11"):** Si eres "revolucionario" de pura cepa instala Canaima no Ubuntu. Si te gusta UBUNTU suscríbete y pregunta en http://ubuntuforums.org/. Es poco probable que haya controladores nativos para ese teléfono en GNU/Linux dado su arquitectura propietaria. Compra un Motorola o Blackberry (u otro teléfono más "imperialista") y más compatible con GNU/Linux que cualquier "vergatario", estos últimos en su mayoría hipócritamente sólo funciona en Microsoft Windows. Si ninguna de estas opciones te agrada apoya el Hardware Libre (http://es.wikipedia.org/wiki/Hardware_libre), generalmente no basta con el software libre.
+**[Olaf Reitmaier Veracierta](#7 "2010-03-04 07:48:11"):** Si eres "revolucionario" de pura cepa instala Canaima no Ubuntu. Si te gusta UBUNTU suscríbete y pregunta en https://ubuntuforums.org/. Es poco probable que haya controladores nativos para ese teléfono en GNU/Linux dado su arquitectura propietaria. Compra un Motorola o Blackberry (u otro teléfono más "imperialista") y más compatible con GNU/Linux que cualquier "vergatario", estos últimos en su mayoría hipócritamente sólo funciona en Microsoft Windows. Si ninguna de estas opciones te agrada apoya el Hardware Libre (https://es.wikipedia.org/wiki/Hardware_libre), generalmente no basta con el software libre.
 
 **[tiostaphunic](#12 "2010-03-14 14:42:44"):** Help me please HP notebooks a suitable name of notebooks? I'm getting a new laptop soon and I'm curious is HP a good enough laptop. I need to know if it last for yers and have long enough battery life. I actually want a macbook... This thing is to expensive. So i was looking about if it worth to get HP laptops.
 

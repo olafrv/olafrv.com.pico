@@ -12,7 +12,7 @@ post_type: post
 
 # ASSP & AVG Antivirus Integration Script
 
-The following script uses the configuration section "ClamAV and FileScan" from ASSP (<http://assp.sourceforge.net/>) where it is configurated an external script for virus scanning, in this case AVG (<http://www.avg.com>). 
+The following script uses the configuration section "ClamAV and FileScan" from ASSP (<https://assp.sourceforge.net/>) where it is configurated an external script for virus scanning, in this case AVG (<https://www.avg.com>). 
 
 > Note that you must download its free version (free.avg.com) or purchase and install it for Linux!!!.
 

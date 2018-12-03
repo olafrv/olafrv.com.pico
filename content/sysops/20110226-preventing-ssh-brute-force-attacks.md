@@ -21,4 +21,4 @@ Basically denyhosts (written in Python) scans /var/log/secure and fills /etc/hos
     chkconfig denyhosts on
     
 
-Visit: <http://denyhosts.sourceforge.net/>
+Visit: <https://denyhosts.sourceforge.net/>

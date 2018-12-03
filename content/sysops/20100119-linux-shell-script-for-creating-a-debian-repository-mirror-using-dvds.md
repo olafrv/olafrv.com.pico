@@ -12,4 +12,4 @@ post_type: post
 
 # Linux shell script for creating a Debian repository (mirror) using DVDs
 
-Useful for those who have Debian medias and want to create/publish a local mirror: [Click here to download the script](http://www.olafrv.com/wp-content/uploads/2010/01/packgz.sh.tar.gz) :-)
+Useful for those who have Debian medias and want to create/publish a local mirror: [Click here to download the script](https://www.olafrv.com/wp-content/uploads/2010/01/packgz.sh.tar.gz) :-)

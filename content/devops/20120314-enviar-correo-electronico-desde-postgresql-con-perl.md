@@ -16,9 +16,9 @@ post_type: post
 
 Para poder enviar correos desde PostgreSQL en GNU/Linux existe una forma sencilla de hacerlo, un script PERL disponible dentro del manejador de base de datos a través de una función. **Requerimientos**
 
-  * Todo esto ha sido probado en [GNU/Linux Debian Squeeze 6.0](http://www.debian.org)
+  * Todo esto ha sido probado en [GNU/Linux Debian Squeeze 6.0](https://www.debian.org)
   * Instalar el módulo de PERL "Mail::Sender": _apt-get install libmail-sender-perl_
-  * Instalar "PLPERL" _apt-get install postgresql-plperl-8.3_. Para mayor información visite: <http://www.postgresql.org/docs/8.3/static/plperl.html>
+  * Instalar "PLPERL" _apt-get install postgresql-plperl-8.3_. Para mayor información visite: <https://www.postgresql.org/docs/8.3/static/plperl.html>
   * Un servidor de correos local (opcional si tenemos otro servidor) instalado y configurado (por defecto): sendmail, exim4 o postfix.
 **Manos a la obra** Debemos cargar el contenido del archivo pgmail.sql y pgmailt.sql que se muestan debajo, para crear la función de envío de correo y hacer pruebas, respectivamente. 
     

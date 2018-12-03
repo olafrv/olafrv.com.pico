@@ -12,4 +12,4 @@ post_type: post
 
 # Linux shell script to download Debian like repositories
 
-I think this script will be useful for those who are dealing with mirroring Debian like distros. [Click here to download the script](http://olafrv.com/wordpress/wp-content/uploads/2010/01/repositorios.sh.tar.gz)
+I think this script will be useful for those who are dealing with mirroring Debian like distros. [Click here to download the script](https://olafrv.com/wordpress/wp-content/uploads/2010/01/repositorios.sh.tar.gz)

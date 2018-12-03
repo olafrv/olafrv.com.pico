@@ -14,7 +14,7 @@ post_type: post
 
 # Autenticación LDAP en JAVA
 
-[*** Click Here to Download the JAVA code ***](http://www.olafrv.com/wp-content/uploads/2010/05/test.zip)
+[*** Click Here to Download the JAVA code ***](https://www.olafrv.com/wp-content/uploads/2010/05/test.zip)
     
     
     /***

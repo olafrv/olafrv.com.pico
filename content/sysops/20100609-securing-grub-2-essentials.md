@@ -12,7 +12,7 @@ post_type: post
 
 # Securing GRUB Essentials
 
-**What is GRUB?** GRUB stands for GRand Unifier Bootloader, to get it on your system you must install package grub or grub2, GRUB is the replacement for largely used but unscalable LILO (LInux LOader) and alternative for SILO (Solaris Improved Bootloader).  ![](http://www.olafrv.com/wp-content/uploads/2010/06/GRUB_screenshot-300x166.png) **GRUB Boot Menu** **GRUB Loading and Booting Sequence**
+**What is GRUB?** GRUB stands for GRand Unifier Bootloader, to get it on your system you must install package grub or grub2, GRUB is the replacement for largely used but unscalable LILO (LInux LOader) and alternative for SILO (Solaris Improved Bootloader).  ![](https://www.olafrv.com/wp-content/uploads/2010/06/GRUB_screenshot-300x166.png) **GRUB Boot Menu** **GRUB Loading and Booting Sequence**
 
   1. The BIOS searches for a start (bootable, flag B on partition table) then passes the control to the MBR (Master Boot Record) which is a 512 bytes area of the (bootable) hard disk (or other device) and is part of the stage 1 of GRUB.
   2. The stage 1 of GRUB loads the next stage of GRUB located phisically in any part the harddisk (or other device). This stage can load the stage 1.5 or 2.
@@ -93,5 +93,5 @@ Here is an example of the **/boot/grub/menu.lst** file in which there is an 1234
 
 ## Comments
 
-**[Olaf Reitmaier Veracierta](#183 "2010-06-09 16:49:57"):** Also see this post: http://ubuntuforums.org/showthread.php?t=1369019
+**[Olaf Reitmaier Veracierta](#183 "2010-06-09 16:49:57"):** Also see this post: https://ubuntuforums.org/showthread.php?t=1369019
 

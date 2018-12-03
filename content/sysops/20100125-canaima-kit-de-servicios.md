@@ -12,7 +12,7 @@ post_type: post
 
 # Canaima - Kit de Servicios
 
-Cito textualmente: "Proveer una herramienta para la gestión y control de los diferentes Servicios que conforman la Plataforma Tecnológica de Información de las distintas instituciones que integran la Administración Pública Nacional mediante el uso de Tecnologías Libres.", disponible aquí: <http://wiki.canaima.softwarelibre.gob.ve/wiki/index.php/Kit_de_Servicios> Interesante y útil, pues hablamos de instalación, configuración y despliegue de: 
+Cito textualmente: "Proveer una herramienta para la gestión y control de los diferentes Servicios que conforman la Plataforma Tecnológica de Información de las distintas instituciones que integran la Administración Pública Nacional mediante el uso de Tecnologías Libres.", disponible aquí: <https://wiki.canaima.softwarelibre.gob.ve/wiki/index.php/Kit_de_Servicios> Interesante y útil, pues hablamos de instalación, configuración y despliegue de: 
 
   * **Xen:** Plataforma de Virtualización.
   * **OpenLDAP:** Esquematización del árbol LDAP, organización basada en servicios, schemas LDAP personalizados.

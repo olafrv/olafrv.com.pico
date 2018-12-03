@@ -12,7 +12,7 @@ post_type: post
 
 # QEMU script for virtual machine creation and emulation
 
-[[Download qemu.sh here]](http://www.olafrv.com/wp-content/uploads/2010/02/qemu.sh.txt)
+[[Download qemu.sh here]](https://www.olafrv.com/wp-content/uploads/2010/02/qemu.sh.txt)
     
     
     #!/bin/sh

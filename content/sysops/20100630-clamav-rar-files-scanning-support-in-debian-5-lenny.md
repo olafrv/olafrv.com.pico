@@ -22,7 +22,7 @@ Produce this output:
 
 > clam.rar: OK \----------- SCAN SUMMARY ----------- Known viruses: 803282 Engine version: 0.96 Scanned directories: 0 Scanned files: 1 Infected files: 0 Data scanned: 0.00 MB Data read: 0.00 MB (ratio 0.00:1) Time: 3.216 sec (0 m 3 s) 
 
-**Well, you just need to install one of this package:** <http://packages.debian.org/squeeze/i386/libclamunrar6/> <http://packages.debian.org/squeeze/amd64/libclamunrar6/> Use dpkg to install the selected package for your system: 
+**Well, you just need to install one of this package:** <https://packages.debian.org/squeeze/i386/libclamunrar6/> <https://packages.debian.org/squeeze/amd64/libclamunrar6/> Use dpkg to install the selected package for your system: 
     
     
     dpkg -i libclamunrar6_0.95.3-1_i???.deb

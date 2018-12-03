@@ -40,5 +40,5 @@ Hope it's useful.
 
 ## Comments
 
-**[Olaf Reitmaier Veracierta](#2232 "2010-11-05 15:19:22"):** Also more information on TLDP.org: http://www.tldp.org/LDP/abs/html/string-manipulation.html Cheers!!!
+**[Olaf Reitmaier Veracierta](#2232 "2010-11-05 15:19:22"):** Also more information on TLDP.org: https://www.tldp.org/LDP/abs/html/string-manipulation.html Cheers!!!
 

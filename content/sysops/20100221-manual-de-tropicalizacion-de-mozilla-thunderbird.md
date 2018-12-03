@@ -24,4 +24,4 @@ post_type: post
     - Script de Instalación (Windows)
     - Script de Instalación (Linux)
 
-[Haga clic aquí para ver el manual (TXT)](http://www.olafrv.com/wp-content/uploads/2010/02/moz-tb-tropical-16092008.txt)
+[Haga clic aquí para ver el manual (TXT)](https://www.olafrv.com/wp-content/uploads/2010/02/moz-tb-tropical-16092008.txt)

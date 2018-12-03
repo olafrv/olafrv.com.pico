@@ -1,14 +1,7 @@
+---
 title: Recuperar archivos borrados en un sistema de ficheros ext3
-link: https://www.olafrv.com/wordpress/recuperar-archivos-borrados-en-un-sistema-de-ficheros-ext3/
-author: chanchito
-description: 
-post_id: 259
 created: 2010/03/01 20:57:48
-created_gmt: 2010/03/01 20:57:48
-comment_status: open
-post_name: recuperar-archivos-borrados-en-un-sistema-de-ficheros-ext3
-status: publish
-post_type: post
+---
 
 # Recuperar archivos borrados en un sistema de ficheros ext3
 

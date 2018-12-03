@@ -1,14 +1,7 @@
+---
 title: Resizing a LVM ext2/ext3 volume (online)
-link: https://www.olafrv.com/wordpress/resizing-an-lvm-volume/
-author: chanchito
-description: 
-post_id: 461
 created: 2010/06/10 08:48:07
-created_gmt: 2010/06/10 13:18:07
-comment_status: open
-post_name: resizing-an-lvm-volume
-status: publish
-post_type: post
+---
 
 # Resizing a LVM ext2/ext3 volume (online)
 

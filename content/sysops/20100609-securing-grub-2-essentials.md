@@ -1,14 +1,7 @@
+---
 title: Securing GRUB Essentials
-link: https://www.olafrv.com/wordpress/securing-grub-2-essentials/
-author: chanchito
-description: 
-post_id: 405
 created: 2010/06/09 16:48:03
-created_gmt: 2010/06/09 21:18:03
-comment_status: open
-post_name: securing-grub-2-essentials
-status: publish
-post_type: post
+---
 
 # Securing GRUB Essentials
 

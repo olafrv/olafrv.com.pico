@@ -1,14 +1,7 @@
+---
 title: Vulnerabilidad PoodleBleed SSLv3
-link: https://www.olafrv.com/wordpress/vulnerabilidad-poodlebleed-sslv3/
-author: chanchito
-description: 
-post_id: 1616
 created: 2014/10/18 20:57:01
-created_gmt: 2014/10/19 01:27:01
-comment_status: open
-post_name: vulnerabilidad-poodlebleed-sslv3
-status: publish
-post_type: post
+---
 
 # Vulnerabilidad PoodleBleed SSLv3
 

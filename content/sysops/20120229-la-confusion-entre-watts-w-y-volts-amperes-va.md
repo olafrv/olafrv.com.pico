@@ -1,14 +1,7 @@
+---
 title: La confusión en computación sobre los Watts (W) y los Volts-Ampères (VA)
-link: https://www.olafrv.com/wordpress/la-confusion-entre-watts-w-y-volts-amperes-va/
-author: chanchito
-description: 
-post_id: 834
 created: 2012/02/29 11:08:53
-created_gmt: 2012/02/29 15:38:53
-comment_status: open
-post_name: la-confusion-entre-watts-w-y-volts-amperes-va
-status: publish
-post_type: post
+---
 
 # La confusión en computación sobre los Watts (W) y los Volts-Ampères (VA)
 

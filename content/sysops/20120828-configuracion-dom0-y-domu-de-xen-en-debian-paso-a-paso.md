@@ -1,14 +1,7 @@
+---
 title: Configuración dom0 y domU de Xen en Debian (Paso a Paso)
-link: https://www.olafrv.com/wordpress/configuracion-dom0-y-domu-de-xen-en-debian-paso-a-paso/
-author: chanchito
-description: 
-post_id: 1118
 created: 2012/08/28 15:26:27
-created_gmt: 2012/08/28 19:56:27
-comment_status: open
-post_name: configuracion-dom0-y-domu-de-xen-en-debian-paso-a-paso
-status: publish
-post_type: post
+---
 
 # Configuración dom0 y domU de Xen en Debian (Paso a Paso)
 

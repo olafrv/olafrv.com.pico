@@ -1,14 +1,7 @@
+---
 title: Securing Telnet using OpenSSL
-link: https://www.olafrv.com/wordpress/securing-telnet/
-author: chanchito
-description: 
-post_id: 428
 created: 2010/06/09 23:26:45
-created_gmt: 2010/06/10 03:56:45
-comment_status: open
-post_name: securing-telnet
-status: publish
-post_type: post
+---
 
 # Securing Telnet using OpenSSL
 

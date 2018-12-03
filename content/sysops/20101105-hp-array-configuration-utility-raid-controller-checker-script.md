@@ -1,14 +1,7 @@
+---
 title: HP Array Configuration Utility RAID Controller Checker Script
-link: https://www.olafrv.com/wordpress/hp-array-configuration-utility-raid-controller-checker-script/
-author: chanchito
-description: 
-post_id: 588
 created: 2010/11/05 15:16:11
-created_gmt: 2010/11/05 19:46:11
-comment_status: open
-post_name: hp-array-configuration-utility-raid-controller-checker-script
-status: publish
-post_type: post
+---
 
 # HP Array Configuration Utility RAID Controller Checker Script
 

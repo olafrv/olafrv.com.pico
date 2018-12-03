@@ -1,14 +1,7 @@
+---
 title: Mitos en torno a los discos duros
-link: https://www.olafrv.com/wordpress/mitos-en-torno-a-los-discos-duros/
-author: chanchito
-description: 
-post_id: 556
 created: 2010/10/13 10:39:45
-created_gmt: 2010/10/13 15:09:45
-comment_status: open
-post_name: mitos-en-torno-a-los-discos-duros
-status: publish
-post_type: post
+---
 
 # Mitos en torno a los discos duros
 

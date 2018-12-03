@@ -1,14 +1,7 @@
+---
 title: ASSP & AVG Antivirus Integration Script
-link: https://www.olafrv.com/wordpress/assp-avg-antivirus-integration-script/
-author: chanchito
-description: 
-post_id: 491
 created: 2010/08/03 13:33:58
-created_gmt: 2010/08/03 18:03:58
-comment_status: open
-post_name: assp-avg-antivirus-integration-script
-status: publish
-post_type: post
+---
 
 # ASSP & AVG Antivirus Integration Script
 

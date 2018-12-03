@@ -1,14 +1,7 @@
+---
 title: Clamav RAR files scanning support in Debian 5 Lenny
-link: https://www.olafrv.com/wordpress/clamav-rar-files-scanning-support-in-debian-5-lenny/
-author: chanchito
-description: 
-post_id: 474
 created: 2010/06/30 18:44:02
-created_gmt: 2010/06/30 23:14:02
-comment_status: open
-post_name: clamav-rar-files-scanning-support-in-debian-5-lenny
-status: publish
-post_type: post
+---
 
 # Clamav RAR files scanning support in Debian 5 Lenny
 

@@ -1,14 +1,7 @@
+---
 title: How to capitalize letters on bash shell script
-link: https://www.olafrv.com/wordpress/how-capitalize-letter-on-bash-shell-script/
-author: chanchito
-description: 
-post_id: 577
 created: 2010/11/04 16:39:42
-created_gmt: 2010/11/04 21:09:42
-comment_status: open
-post_name: how-capitalize-letter-on-bash-shell-script
-status: publish
-post_type: post
+---
 
 # How to capitalize letters on bash shell script
 

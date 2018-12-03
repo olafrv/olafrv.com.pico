@@ -1,14 +1,7 @@
+---
 title: Random Ubuntu 12.04 hangs (freeze), hard reset needed
-link: https://www.olafrv.com/wordpress/ubuntu-12-04-random-hang/
-author: chanchito
-description: 
-post_id: 1151
 created: 2013/05/03 22:16:31
-created_gmt: 2013/05/04 02:46:31
-comment_status: open
-post_name: ubuntu-12-04-random-hang
-status: publish
-post_type: post
+---
 
 # Random Ubuntu 12.04 hangs (freeze), hard reset needed
 

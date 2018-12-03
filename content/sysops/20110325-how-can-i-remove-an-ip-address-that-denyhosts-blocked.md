@@ -1,14 +1,7 @@
+---
 title: How can I remove an IP address that DenyHosts blocked?
-link: https://www.olafrv.com/wordpress/how-can-i-remove-an-ip-address-that-denyhosts-blocked/
-author: chanchito
-description: 
-post_id: 721
 created: 2011/03/25 12:12:36
-created_gmt: 2011/03/25 16:42:36
-comment_status: open
-post_name: how-can-i-remove-an-ip-address-that-denyhosts-blocked
-status: publish
-post_type: post
+---
 
 # How can I remove an IP address that DenyHosts blocked?
 

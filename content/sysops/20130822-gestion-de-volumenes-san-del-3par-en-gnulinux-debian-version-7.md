@@ -1,14 +1,7 @@
+---
 title: Gestión de Volúmenes SAN del 3PAR en GNU/Linux Debian (Versión 7)
-link: https://www.olafrv.com/wordpress/gestion-de-volumenes-san-del-3par-en-gnulinux-debian-version-7/
-author: chanchito
-description: 
-post_id: 1212
 created: 2013/08/22 13:11:55
-created_gmt: 2013/08/22 17:41:55
-comment_status: open
-post_name: gestion-de-volumenes-san-del-3par-en-gnulinux-debian-version-7
-status: publish
-post_type: post
+---
 
 # Gestión de Volúmenes SAN del 3PAR en GNU/Linux Debian (Versión 7)
 

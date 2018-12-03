@@ -1,14 +1,7 @@
+---
 title: Working with a Blackberry device on Linux
-link: https://www.olafrv.com/wordpress/working-with-a-blackberry-device-on-linux/
-author: chanchito
-description: 
-post_id: 357
 created: 2010/03/04 22:58:16
-created_gmt: 2010/03/05 03:28:16
-comment_status: open
-post_name: working-with-a-blackberry-device-on-linux
-status: publish
-post_type: post
+---
 
 # Working with a Blackberry device on Linux
 

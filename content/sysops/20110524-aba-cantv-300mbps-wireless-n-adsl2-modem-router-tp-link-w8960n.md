@@ -1,14 +1,7 @@
+---
 title: Modem Router TP-LINK W8960N (300Mbps Wireless N ADSL2+) con ABA de CANTV
-link: https://www.olafrv.com/wordpress/aba-cantv-300mbps-wireless-n-adsl2-modem-router-tp-link-w8960n/
-author: chanchito
-description: 
-post_id: 738
 created: 2011/05/24 00:06:31
-created_gmt: 2011/05/24 04:36:31
-comment_status: open
-post_name: aba-cantv-300mbps-wireless-n-adsl2-modem-router-tp-link-w8960n
-status: publish
-post_type: post
+---
 
 # Modem Router TP-LINK W8960N (300Mbps Wireless N ADSL2+) con ABA de CANTV
 

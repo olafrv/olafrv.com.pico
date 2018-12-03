@@ -1,14 +1,7 @@
+---
 title: Servers package difference => "dpkg-diff"
-link: https://www.olafrv.com/wordpress/servers-package-difference-dpkg-diff/
-author: chanchito
-description: 
-post_id: 1124
 created: 2012/09/26 22:59:12
-created_gmt: 2012/09/27 03:29:12
-comment_status: open
-post_name: servers-package-difference-dpkg-diff
-status: publish
-post_type: post
+---
 
 # Servers package difference => "dpkg-diff"
 

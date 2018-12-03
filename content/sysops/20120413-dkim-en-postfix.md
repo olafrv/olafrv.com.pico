@@ -1,14 +1,7 @@
+---
 title: DKIM en Postfix con GNU/Linux Debian
-link: https://www.olafrv.com/wordpress/dkim-en-postfix/
-author: chanchito
-description: 
-post_id: 1050
 created: 2012/04/13 15:01:51
-created_gmt: 2012/04/13 19:31:51
-comment_status: open
-post_name: dkim-en-postfix
-status: publish
-post_type: post
+---
 
 # DKIM en Postfix con GNU/Linux Debian
 

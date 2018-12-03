@@ -1,14 +1,7 @@
+---
 title: FALSOS!!! Pendrives Kingston Data Traveler 128GB procedentes de CHINA
-link: https://www.olafrv.com/wordpress/pendrive-kingston-data-traveler-128gb-formato-exfat/
-author: chanchito
-description: 
-post_id: 594
 created: 2010/11/25 01:30:07
-created_gmt: 2010/11/25 06:00:07
-comment_status: open
-post_name: pendrive-kingston-data-traveler-128gb-formato-exfat
-status: publish
-post_type: post
+---
 
 # FALSOS!!! Pendrives Kingston Data Traveler 128GB procedentes de CHINA
 

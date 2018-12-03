@@ -1,14 +1,7 @@
+---
 title: Kernel Compilation
-link: https://www.olafrv.com/wordpress/kernel-compilation/
-author: chanchito
-description: 
-post_id: 1386
 created: 2013/09/22 22:31:31
-created_gmt: 2013/09/23 03:01:31
-comment_status: open
-post_name: kernel-compilation
-status: publish
-post_type: post
+---
 
 # Kernel Compilation
 

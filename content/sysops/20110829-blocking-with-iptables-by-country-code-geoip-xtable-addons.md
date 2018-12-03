@@ -1,14 +1,7 @@
+---
 title: Bloqueo de direcciones IP por país con iptables (GeoIP xtable-addons)
-link: https://www.olafrv.com/wordpress/blocking-with-iptables-by-country-code-geoip-xtable-addons/
-author: chanchito
-description: 
-post_id: 786
 created: 2011/08/29 11:01:31
-created_gmt: 2011/08/29 15:31:31
-comment_status: open
-post_name: blocking-with-iptables-by-country-code-geoip-xtable-addons
-status: publish
-post_type: post
+---
 
 # Bloqueo de direcciones IP por país con iptables (GeoIP xtable-addons)
 

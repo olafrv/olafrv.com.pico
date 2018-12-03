@@ -1,14 +1,7 @@
+---
 title: Debian GRUB 1 and 2 with password (UPDATED)
-link: https://www.olafrv.com/wordpress/debian-lenny-and-new-grub-2-with-password/
-author: chanchito
-description: 
-post_id: 503
 created: 2010/08/19 11:52:36
-created_gmt: 2010/08/19 16:22:36
-comment_status: open
-post_name: debian-lenny-and-new-grub-2-with-password
-status: publish
-post_type: post
+---
 
 # Debian GRUB 1 and 2 with password (UPDATED)
 

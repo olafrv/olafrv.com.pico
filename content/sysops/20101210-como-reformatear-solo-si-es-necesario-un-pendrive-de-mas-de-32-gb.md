@@ -1,14 +1,7 @@
+---
 title: Cómo REFORMATEAR (SOLO SI ES NECESARIO!!!) un pendrive de más de 32 GB
-link: https://www.olafrv.com/wordpress/como-reformatear-solo-si-es-necesario-un-pendrive-de-mas-de-32-gb/
-author: chanchito
-description: 
-post_id: 704
 created: 2010/12/10 01:45:42
-created_gmt: 2010/12/10 06:15:42
-comment_status: open
-post_name: como-reformatear-solo-si-es-necesario-un-pendrive-de-mas-de-32-gb
-status: publish
-post_type: post
+---
 
 # Cómo REFORMATEAR (SOLO SI ES NECESARIO!!!) un pendrive de más de 32 GB
 

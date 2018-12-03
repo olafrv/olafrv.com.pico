@@ -1,14 +1,7 @@
+---
 title: Disabling auto link-local 169.254.0.0 zeroconf
-link: https://www.olafrv.com/wordpress/disabling-auto-link-local-169-254-0-0-zeroconf/
-author: chanchito
-description: 
-post_id: 450
 created: 2010/06/09 23:52:06
-created_gmt: 2010/06/10 04:22:06
-comment_status: open
-post_name: disabling-auto-link-local-169-254-0-0-zeroconf
-status: publish
-post_type: post
+---
 
 # Disabling auto link-local 169.254.0.0 zeroconf
 

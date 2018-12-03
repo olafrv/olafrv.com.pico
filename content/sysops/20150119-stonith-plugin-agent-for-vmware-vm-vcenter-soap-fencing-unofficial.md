@@ -1,14 +1,7 @@
+---
 title: Stonith Plugin Agent for VMWare VM VCenter SOAP Fencing (Unofficial).
-link: https://www.olafrv.com/wordpress/stonith-plugin-agent-for-vmware-vm-vcenter-soap-fencing-unofficial/
-author: chanchito
-description: 
-post_id: 1621
 created: 2015/01/19 16:31:35
-created_gmt: 2015/01/19 21:01:35
-comment_status: open
-post_name: stonith-plugin-agent-for-vmware-vm-vcenter-soap-fencing-unofficial
-status: publish
-post_type: post
+---
 
 # Stonith Plugin Agent for VMWare VM VCenter SOAP Fencing (Unofficial).
 

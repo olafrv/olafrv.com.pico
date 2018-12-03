@@ -1,14 +1,7 @@
+---
 title: Cortafuegos para LAN de Hogar con Acceso a Internet usando Linux Fedora
-link: https://www.olafrv.com/wordpress/cortafuegos-para-lan-de-hogar-con-acceso-a-internet-usando-linux-fedora/
-author: chanchito
-description: 
-post_id: 82
 created: 2010/02/21 05:17:27
-created_gmt: 2010/02/21 05:17:27
-comment_status: open
-post_name: cortafuegos-para-lan-de-hogar-con-acceso-a-internet-usando-linux-fedora
-status: publish
-post_type: post
+---
 
 # Cortafuegos para LAN de Hogar con Acceso a Internet usando Linux Fedora
 

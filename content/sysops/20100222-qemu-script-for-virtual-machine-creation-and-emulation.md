@@ -1,14 +1,7 @@
+---
 title: QEMU script for virtual machine creation and emulation
-link: https://www.olafrv.com/wordpress/qemu-script-for-virtual-machine-creation-and-emulation/
-author: chanchito
-description: 
-post_id: 150
 created: 2010/02/22 16:43:39
-created_gmt: 2010/02/22 16:43:39
-comment_status: open
-post_name: qemu-script-for-virtual-machine-creation-and-emulation
-status: publish
-post_type: post
+---
 
 # QEMU script for virtual machine creation and emulation
 

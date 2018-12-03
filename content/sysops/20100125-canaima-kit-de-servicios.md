@@ -1,14 +1,7 @@
+---
 title: Canaima - Kit de Servicios
-link: https://www.olafrv.com/wordpress/canaima-kit-de-servicios/
-author: chanchito
-description: 
-post_id: 72
 created: 2010/01/25 00:23:45
-created_gmt: 2010/01/25 00:23:45
-comment_status: open
-post_name: canaima-kit-de-servicios
-status: publish
-post_type: post
+---
 
 # Canaima - Kit de Servicios
 

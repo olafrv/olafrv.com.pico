@@ -1,14 +1,7 @@
+---
 title: Modify CONTROL file in Debian Package
-link: https://www.olafrv.com/wordpress/modify-control-file-in-debian-package/
-author: chanchito
-description: 
-post_id: 145
 created: 2010/02/21 06:23:04
-created_gmt: 2010/02/21 06:23:04
-comment_status: open
-post_name: modify-control-file-in-debian-package
-status: publish
-post_type: post
+---
 
 # Modify CONTROL file in Debian Package
 

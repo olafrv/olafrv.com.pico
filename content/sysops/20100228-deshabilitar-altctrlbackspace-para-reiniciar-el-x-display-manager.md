@@ -1,14 +1,7 @@
+---
 title: Deshabilitar ALT+CTRL+BACKSPACE para reiniciar el X Display Manager
-link: https://www.olafrv.com/wordpress/deshabilitar-altctrlbackspace-para-reiniciar-el-x-display-manager/
-author: chanchito
-description: 
-post_id: 251
 created: 2010/02/28 23:54:00
-created_gmt: 2010/02/28 23:54:00
-comment_status: open
-post_name: deshabilitar-altctrlbackspace-para-reiniciar-el-x-display-manager
-status: publish
-post_type: post
+---
 
 # Deshabilitar ALT+CTRL+BACKSPACE para reiniciar el X Display Manager
 

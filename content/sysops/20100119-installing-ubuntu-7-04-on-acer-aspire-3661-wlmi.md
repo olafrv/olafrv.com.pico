@@ -1,15 +1,6 @@
 ---
 title: Installing Ubuntu 7.04 on Acer Aspire 3661 WLMi
-link: https://www.olafrv.com/wordpress/installing-ubuntu-7-04-on-acer-aspire-3661-wlmi/
-author: chanchito
-description: 
-post_id: 50
 created: 2010/01/19 04:53:23
-created_gmt: 2010/01/19 04:53:23
-comment_status: open
-post_name: installing-ubuntu-7-04-on-acer-aspire-3661-wlmi
-status: publish
-post_type: post
 ---
 
 # Installing Ubuntu 7.04 on Acer Aspire 3661 WLMi

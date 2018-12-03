@@ -1,14 +1,7 @@
+---
 title: Shell Script para cambiar de pasarela de Internet
-link: https://www.olafrv.com/wordpress/shell-script-para-cambiar-de-pasarela-de-internet/
-author: chanchito
-description: 
-post_id: 97
 created: 2010/02/21 05:22:36
-created_gmt: 2010/02/21 05:22:36
-comment_status: open
-post_name: shell-script-para-cambiar-de-pasarela-de-internet
-status: publish
-post_type: post
+---
 
 # Shell Script para cambiar de pasarela de Internet
 

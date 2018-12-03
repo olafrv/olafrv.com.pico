@@ -1,15 +1,6 @@
 ---
 title: High Availability, Load Balancing and Replication on Linux
-link: https://www.olafrv.com/wordpress/high-availability-load-balancing-and-replication-on-linux/
-author: chanchito
-description: 
-post_id: 13
 created: 2010/01/19 03:50:24
-created_gmt: 2010/01/19 03:50:24
-comment_status: open
-post_name: high-availability-load-balancing-and-replication-on-linux
-status: publish
-post_type: post
 ---
 
 # High Availability, Load Balancing and Replication on Linux

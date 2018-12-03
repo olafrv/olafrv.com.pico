@@ -1,14 +1,7 @@
+---
 title: Compile linux-* kernel packages
-link: https://www.olafrv.com/wordpress/compile-linux-kernel-packages/
-author: chanchito
-description: 
-post_id: 119
 created: 2010/02/26 06:02:30
-created_gmt: 2010/02/26 06:02:30
-comment_status: open
-post_name: compile-linux-kernel-packages
-status: publish
-post_type: post
+---
 
 # Compile linux-* kernel packages
 

@@ -1,14 +1,7 @@
+---
 title: Instalando Canaima 2.0.4 vía Pendrive USB en Laptop HP Mini 110 1020la
-link: https://www.olafrv.com/wordpress/instalando-canaima-2-0-4-via-pendrive-usb-en-laptop-hp-mini-110-1020la/
-author: chanchito
-description: 
-post_id: 158
 created: 2010/02/26 06:03:19
-created_gmt: 2010/02/26 06:03:19
-comment_status: open
-post_name: instalando-canaima-2-0-4-via-pendrive-usb-en-laptop-hp-mini-110-1020la
-status: publish
-post_type: post
+---
 
 # Instalando Canaima 2.0.4 vía Pendrive USB en Laptop HP Mini 110 1020la
 

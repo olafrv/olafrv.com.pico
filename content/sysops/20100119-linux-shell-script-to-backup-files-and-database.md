@@ -1,14 +1,7 @@
+---
 title: Linux shell script to backup files and databases
-link: https://www.olafrv.com/wordpress/linux-shell-script-to-backup-files-and-database/
-author: chanchito
-description: 
-post_id: 59
 created: 2010/01/19 05:17:36
-created_gmt: 2010/01/19 05:17:36
-comment_status: open
-post_name: linux-shell-script-to-backup-files-and-database
-status: publish
-post_type: post
+---
 
 # Linux shell script to backup files and databases
 

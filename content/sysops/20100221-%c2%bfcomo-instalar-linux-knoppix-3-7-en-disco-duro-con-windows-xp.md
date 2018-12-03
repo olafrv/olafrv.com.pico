@@ -1,14 +1,7 @@
+---
 title: ¿Cómo instalar Linux Knoppix 3.7 en disco duro con Windows XP?
-link: https://www.olafrv.com/wordpress/%c2%bfcomo-instalar-linux-knoppix-3-7-en-disco-duro-con-windows-xp/
-author: chanchito
-description: 
-post_id: 92
 created: 2010/02/21 05:18:58
-created_gmt: 2010/02/21 05:18:58
-comment_status: open
-post_name: %c2%bfcomo-instalar-linux-knoppix-3-7-en-disco-duro-con-windows-xp
-status: publish
-post_type: post
+---
 
 # ¿Cómo instalar Linux Knoppix 3.7 en disco duro con Windows XP?
 

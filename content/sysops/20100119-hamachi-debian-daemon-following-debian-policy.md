@@ -1,6 +1,5 @@
 ---
 title: Hamachi Debian Daemon following Debian Policy
-link: https://www.olafrv.com/wordpress/hamachi-debian-daemon-following-debian-policy/
 created: 2010/01/19 04:10:49
 ---
 

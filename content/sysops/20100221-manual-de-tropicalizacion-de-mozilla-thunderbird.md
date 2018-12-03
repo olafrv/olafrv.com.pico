@@ -1,14 +1,7 @@
+---
 title: Manual de Tropicalización de Mozilla Thunderbird
-link: https://www.olafrv.com/wordpress/manual-de-tropicalizacion-de-mozilla-thunderbird/
-author: chanchito
-description: 
-post_id: 76
 created: 2010/02/21 05:09:19
-created_gmt: 2010/02/21 05:09:19
-comment_status: open
-post_name: manual-de-tropicalizacion-de-mozilla-thunderbird
-status: publish
-post_type: post
+---
 
 # Manual de Tropicalización de Mozilla Thunderbird
 

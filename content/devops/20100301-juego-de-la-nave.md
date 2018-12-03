@@ -1,15 +1,6 @@
 ---
 title: Juego de la Nave
-link: https://www.olafrv.com/wordpress/juego-de-la-nave/
-author: chanchito
-description: 
-post_id: 336
 created: 2010/03/01 23:57:50
-created_gmt: 2010/03/02 04:27:50
-comment_status: open
-post_name: juego-de-la-nave
-status: publish
-post_type: post
 ---
 
 # Juego de la Nave

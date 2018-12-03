@@ -1,15 +1,6 @@
 ---
 title: Extract ASCII (undescored) subject form MIME email files
-link: https://www.olafrv.com/wordpress/extract-ascii-undescored-subject-form-mime-email-files/
-author: chanchito
-description: 
-post_id: 825
 created: 2011/12/20 11:17:57
-created_gmt: 2011/12/20 15:47:57
-comment_status: open
-post_name: extract-ascii-undescored-subject-form-mime-email-files
-status: publish
-post_type: post
 ---
 
 # Extract ASCII (undescored) subject form MIME email files

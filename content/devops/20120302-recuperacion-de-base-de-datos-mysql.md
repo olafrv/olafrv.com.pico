@@ -1,15 +1,6 @@
 ---
 title: Recuperación de base de datos MySQL
-link: https://www.olafrv.com/wordpress/recuperacion-de-base-de-datos-mysql/
-author: chanchito
-description: 
-post_id: 849
 created: 2012/03/02 00:17:32
-created_gmt: 2012/03/02 04:47:32
-comment_status: open
-post_name: recuperacion-de-base-de-datos-mysql
-status: publish
-post_type: post
 ---
 
 # Recuperación de base de datos MySQL

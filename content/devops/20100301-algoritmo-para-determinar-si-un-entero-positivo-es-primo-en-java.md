@@ -1,15 +1,6 @@
 ---
 title: Algoritmo para determinar si un entero positivo es primo en JAVA
-link: https://www.olafrv.com/wordpress/algoritmo-para-determinar-si-un-entero-positivo-es-primo-en-java/
-author: chanchito
-description: 
-post_id: 322
 created: 2010/03/01 23:18:51
-created_gmt: 2010/03/02 03:48:51
-comment_status: open
-post_name: algoritmo-para-determinar-si-un-entero-positivo-es-primo-en-java
-status: publish
-post_type: post
 ---
 
 # Algoritmo para determinar si un entero positivo es primo en JAVA

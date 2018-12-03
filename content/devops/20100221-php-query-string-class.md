@@ -1,15 +1,6 @@
 ---
 title: PHP Query String Class
-link: https://www.olafrv.com/wordpress/php-query-string-class/
-author: chanchito
-description: 
-post_id: 113
 created: 2010/02/21 05:49:20
-created_gmt: 2010/02/21 05:49:20
-comment_status: open
-post_name: php-query-string-class
-status: publish
-post_type: post
 ---
 
 # PHP Query String Class

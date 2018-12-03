@@ -1,15 +1,6 @@
 ---
 title: MD5, SHA-1 hash sums in Java 2
-link: https://www.olafrv.com/wordpress/md5-sha-1-hash-sums-in-java-2/
-author: chanchito
-description: 
-post_id: 100
 created: 2010/02/21 05:23:54
-created_gmt: 2010/02/21 05:23:54
-comment_status: open
-post_name: md5-sha-1-hash-sums-in-java-2
-status: publish
-post_type: post
 ---
 
 # MD5, SHA-1 hash sums in Java 2

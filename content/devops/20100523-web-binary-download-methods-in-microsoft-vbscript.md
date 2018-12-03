@@ -1,15 +1,7 @@
 ---
 title: Download Binary File Function within Microsoft VBScript
 link: https://www.olafrv.com/wordpress/web-binary-download-methods-in-microsoft-vbscript/
-author: chanchito
-description: 
-post_id: 385
 created: 2010/05/23 15:23:11
-created_gmt: 2010/05/23 19:53:11
-comment_status: open
-post_name: web-binary-download-methods-in-microsoft-vbscript
-status: publish
-post_type: post
 ---
 
 # Download Binary File Function within Microsoft VBScript

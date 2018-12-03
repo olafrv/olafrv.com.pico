@@ -1,15 +1,6 @@
 ---
 title: Autenticación LDAP en JAVA
-link: https://www.olafrv.com/wordpress/autenticacion-ldap-en-java/
-author: chanchito
-description: 
-post_id: 376
 created: 2010/05/19 19:23:15
-created_gmt: 2010/05/19 23:53:15
-comment_status: open
-post_name: autenticacion-ldap-en-java
-status: publish
-post_type: post
 ---
 
 # Autenticación LDAP en JAVA

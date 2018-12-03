@@ -1,15 +1,6 @@
 ---
 title: Enviar correo electrónico desde PostgreSQL con PERL
-link: https://www.olafrv.com/wordpress/enviar-correo-electronico-desde-postgresql-con-perl/
-author: chanchito
-description: 
-post_id: 879
 created: 2012/03/14 11:18:53
-created_gmt: 2012/03/14 15:48:53
-comment_status: open
-post_name: enviar-correo-electronico-desde-postgresql-con-perl
-status: publish
-post_type: post
 ---
 
 # Enviar correo electrónico desde PostgreSQL con PERL

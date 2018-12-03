@@ -1,15 +1,6 @@
 ---
 title: Replicación MySQL
-link: https://www.olafrv.com/wordpress/replicacion-mysql/
-author: chanchito
-description: 
-post_id: 1702
 created: 2017/12/03 17:21:48
-created_gmt: 2017/12/03 21:51:48
-comment_status: open
-post_name: replicacion-mysql
-status: publish
-post_type: post
 ---
 
 # Replicación MySQL

@@ -1,14 +1,7 @@
+---
 title: Blowfish Cipher Algorithm in Java
-link: https://www.olafrv.com/wordpress/blowfish-cipher-algorithm-in-java/
-author: chanchito
-description: 
-post_id: 5
-created: 2010/01/19 03:36:30
-created_gmt: 2010/01/19 03:36:30
-comment_status: open
-post_name: blowfish-cipher-algorithm-in-java
-status: publish
-post_type: post
+created: 2010/01/19 04:25:55
+---
 
 # Blowfish Cipher Algorithm in Java
 

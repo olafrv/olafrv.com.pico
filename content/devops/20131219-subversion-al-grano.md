@@ -1,15 +1,6 @@
 ---
 title: Subversion, Al grano!
-link: https://www.olafrv.com/wordpress/subversion-al-grano/
-author: chanchito
-description: 
-post_id: 1578
 created: 2013/12/19 14:26:27
-created_gmt: 2013/12/19 18:56:27
-comment_status: open
-post_name: subversion-al-grano
-status: publish
-post_type: post
 ---
 
 # Subversion, Al grano!

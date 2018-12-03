@@ -1,15 +1,7 @@
 ---
 title: A Java Class to upload files trough FTP
 link: https://www.olafrv.com/wordpress/a-java-class-to-upload-files-trough-ftp/
-author: chanchito
-description: 
-post_id: 107
 created: 2010/02/21 05:29:59
-created_gmt: 2010/02/21 05:29:59
-comment_status: open
-post_name: a-java-class-to-upload-files-trough-ftp
-status: publish
-post_type: post
 ---
 
 # A Java Class to upload files trough FTP

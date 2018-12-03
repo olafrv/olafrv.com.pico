@@ -1,15 +1,6 @@
 ---
 title: Algoritmo rústico de Tic-Tac-Toe para QBASIC, Powerbasic y Justbasic
-link: https://www.olafrv.com/wordpress/algoritmo-rustico-de-tic-tac-toe-para-qbasic-powerbasic-y-justbasic/
-author: chanchito
-description: 
-post_id: 327
 created: 2010/03/01 23:34:35
-created_gmt: 2010/03/02 04:04:35
-comment_status: open
-post_name: algoritmo-rustico-de-tic-tac-toe-para-qbasic-powerbasic-y-justbasic
-status: publish
-post_type: post
 ---
 
 # Algoritmo rústico de Tic-Tac-Toe para QBASIC, Powerbasic y Justbasic

@@ -1,15 +1,6 @@
 ---
 title: Plataforma de Interoperabilidad en el Marco del Decreto 3390
-link: https://www.olafrv.com/wordpress/plataforma-de-interoperabilidad-en-el-marco-del-decreto-3390/
-author: chanchito
-description: 
-post_id: 566
 created: 2010/10/18 22:46:09
-created_gmt: 2010/10/19 03:16:09
-comment_status: open
-post_name: plataforma-de-interoperabilidad-en-el-marco-del-decreto-3390
-status: publish
-post_type: post
 ---
 
 # Plataforma de Interoperabilidad en el Marco del Decreto 3390

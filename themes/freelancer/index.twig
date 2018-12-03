@@ -18,6 +18,8 @@
 
     {% if 'about' not in pages.index.meta.disable %}{% include "includes/about.twig" %}{% endif %}
 
+    {% if 'news' not in pages.index.meta.disable %}{% include "includes/news.twig" %}{% endif %}
+
     {% if 'contact' not in pages.index.meta.disable %}{% include "includes/contact.twig" %}{% endif %}
 
     {% if 'footer' not in pages.index.meta.disable %}{% include "includes/footer.twig" %}{% endif %}

@@ -1,0 +1,49 @@
+<!-- News Section -->
+    <section id="news">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>{{ pages.index.meta.news_text }}</h2>
+                    <hr class="star-primary">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 text-center">
+<a class="twitter-timeline"  href="https://twitter.com/daycohost"  data-widget-id="288842835942326273">Tweets by @olafrv</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					 </div>
+                <div class="col-lg-4 text-center">
+<a class="twitter-timeline"  href="https://twitter.com/olafrv"  data-widget-id="288842835942326273">Tweets by @olafrv</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+                <div class="col-lg-4 text-center">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$.get('https://api.github.com/users/olafrv/repos?sort=pushed&direction=desc', function(data){
+	$.each(data, function(i, obj) {
+		$("#githubrepos").append(
+			 '<tr><th scope="row">'+(i+1)
+			+'</th><td>'
+			+'<a href="' + obj.html_url + '">' + obj.name + '</a>'
+			+ '</td>'
+			+'</th><td>'+obj.pushed_at+'</td></tr>'
+		);
+		if (i==10-1) return false;
+	});
+});
+</script>
+	<span><img height="75px" src="assets/github.png"></span>
+	<table class="table table-striped">
+		<thead class="thead-dark">
+			<tr>
+		      <th scope="col">#</th>
+				<th>Repos</th>
+				<th>Pushed<th>
+			</tr>
+		</thead>
+		<tbody id="githubrepos"></tbody>
+   </table>
+					</div>	
+            </div>
+        </div>
+    </section>

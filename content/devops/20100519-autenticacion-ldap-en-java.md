@@ -6,7 +6,7 @@ created: 2010/05/19 19:23:15
 # Autenticación LDAP en JAVA
 
 [*** Click Here to Download the JAVA code ***](https://www.olafrv.com/wp-content/uploads/2010/05/test.zip)
-    
+
 ```java
     /***
      * ARCHIVO: test.java

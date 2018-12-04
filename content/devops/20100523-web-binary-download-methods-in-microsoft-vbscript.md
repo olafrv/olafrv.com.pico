@@ -6,7 +6,13 @@ created: 2010/05/23 15:23:11
 
 # Download Binary File Function within Microsoft VBScript
 
-Taken on May 23th, 2010 from <https://www.ericphelps.com/scripting/samples/BinaryDownload/index.htm> by Eric. It works perfect, just download your file with: **SaveWebBinary "https://server/file1.ext1", "C:/file2.ext2"** Using this function: 
+Taken on May 23th, 2010 from <https://www.ericphelps.com/scripting/samples/BinaryDownload/index.htm> by Eric. 
+
+It works perfect, just download your file with: 
+
+**SaveWebBinary "https://server/file1.ext1", "C:/file2.ext2"** 
+
+Using this function: 
     
 ```vb
     Function SaveWebBinary(strUrl, strFile) 'As Boolean

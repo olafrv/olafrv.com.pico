@@ -5,9 +5,9 @@ created: 2011/12/20 11:17:57
 
 # Extract ASCII (undescored) subject form MIME email files
 
-#!/usr/bin/perl
-    
 ```perl
+    #!/usr/bin/perl
+    
     ##
     # FILE: email-subject.pl
     # AUTHOR: Olaf Reitmaier  - Dec 20th, 2011

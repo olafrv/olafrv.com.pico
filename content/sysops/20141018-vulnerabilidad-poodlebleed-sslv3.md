@@ -5,8 +5,35 @@ created: 2014/10/18 20:57:01
 
 # Vulnerabilidad PoodleBleed SSLv3
 
-Poodle, siglas de Padding Oracle On Downgraded Legacy Encryption, es explotado a través de una vulnerabilidad en el protocolo SSLv3 que permite al atacante obtener partes de una conexión "segura" (Ejemplo: HTTPS), evitando cualquier cifrado y obtener todos los datos transferidos en texto legible (Ej. Contraseña Bancaria). Como es un error de diseño global en el propio protocolo SSLv3 no existe parche, la única solución es deshabilitarlo (no usarlo). <https://www.openssl.org/~bodo/ssl-poodle.pdf> <https://googleonlinesecurity.blogspot.com/2014/10/this-poodle-bites-exploiting-ssl-30.html> <https://access.redhat.com/articles/1232123> <https://www.symantec.com/connect/blogs/ssl-30-vulnerability-poodle-bug-aka-poodlebleed> En líneas generales la mayoría de los navegadores se conectan a los sitios seguros en Internet vía TLS 1.0 no vía SSLv3, sin embargo, en caso de problemas de conexión forzada (Ej. Configuración, Virus, Administrador Malicioso) el tráfico puede ser guardo y analizado para obtener la información fácilmente. **Herramienta de Chequeo de Cliente (Navegador)** <https://www.ssllabs.com/ssltest/viewMyClient.html> **Herramienta de Chequeo de Servidor (Página)** <https://poodlebleed.com/> <https://www.ssllabs.com/ssltest/> **Solución para Internet Explorer** <https://technet.microsoft.com/en-us/library/security/3009008.aspx>
+Poodle, siglas de Padding Oracle On Downgraded Legacy Encryption, es explotado a través de una vulnerabilidad en el protocolo SSLv3 que permite al atacante obtener partes de una conexión "segura" (Ejemplo: HTTPS), evitando cualquier cifrado y obtener todos los datos transferidos en texto legible (Ej. Contraseña Bancaria). Como es un error de diseño global en el propio protocolo SSLv3 no existe parche, la única solución es deshabilitarlo (no usarlo). 
+
+  * <https://www.openssl.org/~bodo/ssl-poodle.pdf>
+  * <https://googleonlinesecurity.blogspot.com/2014/10/this-poodle-bites-exploiting-ssl-30.html>
+  * <https://access.redhat.com/articles/1232123> 
+  * <https://www.symantec.com/connect/blogs/ssl-30-vulnerability-poodle-bug-aka-poodlebleed>
+
+En líneas generales la mayoría de los navegadores se conectan a los sitios seguros en Internet vía TLS 1.0 no vía SSLv3, sin embargo, en caso de problemas de conexión forzada (Ej. Configuración, Virus, Administrador Malicioso) el tráfico puede ser guardo y analizado para obtener la información fácilmente. 
+
+# Herramienta de Chequeo de Cliente (Navegador)*
+
+  * <https://www.ssllabs.com/ssltest/viewMyClient.html> 
+
+# Herramienta de Chequeo de Servidor (Página)
+
+  * <https://poodlebleed.com/> 
+  * <https://www.ssllabs.com/ssltest/> 
+
+# Solución para Internet Explorer
+
+  * <https://technet.microsoft.com/en-us/library/security/3009008.aspx>
 
 > Disable SSL 3.0 and enable TLS 1.0, TLS 1.1, and TLS 1.2 in Internet Explorer You can disable the SSL 3.0 protocol in Internet Explorer by modifying the Advanced Security settings in Internet Explorer. To change the default protocol version to be used for HTTPS requests, perform the following steps: On the Internet Explorer Tools menu, click Internet Options. In the Internet Options dialog box, click the Advanced tab. In the Security category, uncheck Use SSL 3.0 and check Use TLS 1.0, Use TLS 1.1, and Use TLS 1.2 (if available). Click OK. Exit and restart Internet Explorer.
 
-**Solución para Firefox** Instalar este Add-On (Es la más fácil hasta que sea liberada la versión 34): <https://addons.mozilla.org/en-US/firefox/addon/ssl-version-control/> **Solución para Google Chrome (Requiere Administrador) y otros navegadores** <https://zmap.io/sslv3/browsers.html>
+# Solución para Firefox
+
+Instalar este Add-On (Es la más fácil hasta que sea liberada la versión 34): <https://addons.mozilla.org/en-US/firefox/addon/ssl-version-control/>
+
+# Solución para Google Chrome (Requiere Administrador) y otros navegadores
+
+<https://zmap.io/sslv3/browsers.html>
+

@@ -5,6 +5,9 @@ created: 2011/12/20 11:17:57
 
 # Extract ASCII (undescored) subject form MIME email files
 
+Download the script from github: [email-subject.pl].(https://github.com/olafrv/perl_utils/blob/master/email-subject.pl)
+
+
 ```perl
     #!/usr/bin/perl
     

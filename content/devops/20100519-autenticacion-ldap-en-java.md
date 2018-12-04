@@ -7,7 +7,7 @@ created: 2010/05/19 19:23:15
 
 [*** Click Here to Download the JAVA code ***](https://www.olafrv.com/wp-content/uploads/2010/05/test.zip)
     
-    
+```java
     /***
      * ARCHIVO: test.java
      * USO: Autenticación de un usuario LDAP
@@ -117,3 +117,4 @@ created: 2010/05/19 19:23:15
           return autenticado;
        }
     }
+```

@@ -7,7 +7,7 @@ created: 2010/02/21 05:23:54
 
 [Download HashSum.java](https://www.olafrv.com/wp-content/uploads/2010/02/HashSum.java_.zip)
     
-    
+```java
     /**
     * A class for calculating hash sum in files or strings
     * using all the hash algorithms supported by Java
@@ -113,3 +113,4 @@ created: 2010/02/21 05:23:54
     return sb.toString();
     }
     }
+```

@@ -7,6 +7,7 @@ created: 2011/12/20 11:17:57
 
 #!/usr/bin/perl
     
+```perl
     ##
     # FILE: email-subject.pl
     # AUTHOR: Olaf Reitmaier  - Dec 20th, 2011
@@ -48,3 +49,4 @@ created: 2011/12/20 11:17:57
     $date=~s/_$//;
     
     print "$date-$subject.eml\n";
+```

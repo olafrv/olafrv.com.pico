@@ -7,7 +7,7 @@ created: 2010/03/01 23:18:51
 
 A continuación tienen el archivo **"primo.java"**, compilarlo y ejecutarlo pasándole como argumento un número entero positivo cualquiera. 
     
-    
+```java
     public class primo{
     	public static void main(String [] args){
     		int numero=new Integer(args[0]).intValue();
@@ -23,3 +23,4 @@ A continuación tienen el archivo **"primo.java"**, compilarlo y ejecutarlo pas�
     		System.out.println(esprimo+" - el divisor es "+divisor);
     	}
     }
+```

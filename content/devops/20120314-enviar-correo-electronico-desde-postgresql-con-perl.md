@@ -13,15 +13,16 @@ Para poder enviar correos desde PostgreSQL en GNU/Linux existe una forma sencill
   * Un servidor de correos local (opcional si tenemos otro servidor) instalado y configurado (por defecto): sendmail, exim4 o postfix.
 **Manos a la obra** Debemos cargar el contenido del archivo pgmail.sql y pgmailt.sql que se muestan debajo, para crear la función de envío de correo y hacer pruebas, respectivamente. 
     
-    
+```bash
     root# su - postgres
     postgres$ psql < pgmail.sql 
     postgres$ psql < pgmailt.sql 
-    
+```
 
 **Creación de la función "pgmail"** El archivo **pgmail.sql** contiene lo siguiente: 
     
-    
+
+```
     \c A;
     -- CREATE LANGUAGE plperlu;
     CREATE OR REPLACE FUNCTION pgmail(text, text, text, text) RETURNS INTEGER AS $$
@@ -57,10 +58,11 @@ Para poder enviar correos desde PostgreSQL en GNU/Linux existe una forma sencill
     }
     
     $$ LANGUAGE plperlu VOLATILE STRICT;
-    
+``` 
 
 **Prueba de "pgmail"** El archivo **pgmailt.sql** contiene lo siguiente: 
     
-    
+``` 
     \c A;
     select pgmail('me@localhost.localdomain', 'olafrv@gmail.com,olafrv@cantv.net','Mail desde postgres', 'Test!!!');
+```

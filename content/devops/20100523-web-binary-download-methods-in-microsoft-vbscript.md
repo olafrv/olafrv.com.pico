@@ -8,7 +8,7 @@ created: 2010/05/23 15:23:11
 
 Taken on May 23th, 2010 from <https://www.ericphelps.com/scripting/samples/BinaryDownload/index.htm> by Eric. It works perfect, just download your file with: **SaveWebBinary "https://server/file1.ext1", "C:/file2.ext2"** Using this function: 
     
-    
+```vb
     Function SaveWebBinary(strUrl, strFile) 'As Boolean
     Const adTypeBinary = 1
     Const adSaveCreateOverWrite = 2
@@ -58,3 +58,4 @@ Taken on May 23th, 2010 from <https://www.ericphelps.com/scripting/samples/Binar
         End If
         SaveWebBinary = True
     End Function
+```

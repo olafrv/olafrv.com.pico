@@ -7,8 +7,8 @@ created: 2010/02/21 05:29:59
 # A Java Class to upload files trough FTP
 
 [Download Ftp.java](https://www.olafrv.com/wp-content/uploads/2010/02/Ftp.java_.zip)
-    
-    
+
+```java
     /**
     * FILE: Ftp.java
     * DESCRIPTION: A ftp uploader GUI class
@@ -105,3 +105,4 @@ created: 2010/02/21 05:29:59
     }
     
     }
+```

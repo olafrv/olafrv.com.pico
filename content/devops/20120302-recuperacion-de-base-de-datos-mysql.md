@@ -7,16 +7,17 @@ created: 2012/03/02 00:17:32
 
 **I.- MOTORES DE BASE DE DATOS** Los dos (2) motores de base de datos MySQL más usados para almacenar datos en tablas son MyISAM e InnoDB. El primero MyISAM, a diferencia de InnoDB no permite almacenamiento transaccional (conforme a ACID) con capacidades de commit (confirmación), rollback (cancelación) y recuperación de fallas, por eso más estable que InnoDB que es mucho más sensible a corrupciones de datos. Los motores de base de datos activos pueden visualizarse con el comando: 
     
-    
+```
     mysql> show engines;
+```
 
 **II.- ARCHIVOS BASES DE DATOS** En su mayoría los archivos de bases de datos se almacenan en archivos con el nombre de la tabla en una subcarpeta con el nombre de la base datos. Sin embargo, dependiendo del motor de base de datos esto varia como se describe a continuación: Por cada tabla tipo MyISAM existe un archivo .frm con su estructura, un archivo de datos .MYD (MYData) y un archivo de índice .MYI (MYIndex). El motor de almacenamiento InnoDB gestiona en cada instancia del servidor de MySQL archivos de datos de espacios de tablas (tablespaces) y archivos de registro (log). Para cada tabla tipo InnoDB existe un archivo .frm registrado en el diccionario de datos de InnoDB (no en el global de la instancia de MySQL), por esta razón no se pueden mover tablas entre bases de datos sencillamente moviendo los ficheros .frm. Adicionalmente, a menos que la configuración por defecto de InnoDB sea modificada, MySQL crea un archivo de datos (autoextensible) llamado ibdata1 y dos archivos de registro (log) llamados ib_logfile0 y ib_logfile1 que son compartidos por todas las tablas InnoDB de una instancia MySQL. Es posible agregar la opción innodb_file_per_table en la configuración para indicar a MySQL que la información de las tablas InnoDB se almacenen en su propio archivo de datos .IBD. **III.- REPARACIÓN DE BASES DE DATOS** **III.A.- SERVIDOR MYSQL EN LÍNEA** Antes de realizar cualquier labor de mantenimiento se deben detener los sistemas que se conectan al servidor de base de datos, o bien, reportar el servidor caído denegando las conexiones. La manera más fácil de lograrlo es bloqueando las conexiones IP de la red local (Interfaz eth0) en el servidor MySQL utilizando iptables, dependiendo del número de instancias (3306, 3307, 3308) y del número de interfaces los comandos serían los siguientes: 
     
-    
+```bash 
     iptables -I INPUT -i eth0 -p tcp -m multiport --dports 3306 -j REJECT
     iptables -I INPUT -i eth0 -p tcp -m multiport --dports 3306,3307 -j REJECT
     iptables -I INPUT -i eth0 -p tcp -m multiport --dports 3306:3308 -j REJECT
-    
+```
 
 Para desactivar el bloqueo cambiamos "iptables -I INPUT" por "iptables -D INPUT" en los comandos anterior y para ver el listado de las reglas debloqueo activas ejecute "iptables -S". Es importante destacar que solo se pueden reparar bases de datos en una instancia de MySQL que se esté ejecutando (en línea). Un servidor muestra en el log de error los siguientes mensajes cuando se detiene e inicia correctamente: 
 
@@ -26,19 +27,19 @@ Para desactivar el bloqueo cambiamos "iptables -I INPUT" por "iptables -D INPUT"
 
 Si el servidor MySQL no se está ejecutando entonces continúe en la sección "SERVIDOR DE MYSQL DETENIDO". El comando para realizar la reparación es "mysqlrepair" que tiene una sintaxis similar a "mysql", algunos ejemplos son: 
     
-    
+```bash 
     mysqlrepair -u root -p 
     mysqlrepair --socket=/var/run/mysqld/mysqld.sock -u root -p 
     mysqlrepair --protocol=tcp --port=3306 -h 127.0.0.1 -u root -p 
-    
+```
 
 > NOTA: La ruta del socket, la dirección ip, el puerto o el protocolo pueden varias dependiendo del número y ubicación de las instancias del servidor MySQL. 
 
 Si una base de datos no pudo ser reparada se debe eliminar y restaurar partiendo un respaldo (dump) previamente hecho con el comando mysqldump, ejecutando el siguiente comando: 
     
-    
+```bash 
     mysql --protocol=tcp --port=3306 -u root -p mibasededatos < midump.sql
-    
+```
 
 Si no tiene un respaldo entonces la información se habrá perdido definitivamente. **III.B.- SERVIDOR DE MYSQL DETENIDO** Si el servidor MySQL no se está ejecutando debemos determinar la causa inspeccionando el log de error del servidor. Si no está configurado debe activarlo colocando en el archivo de configuración my.cf: `[mysqld] log-error = /var/log/mysql/mysql.err.log ` Si se determina que el servidor no inicia debido a problemas con InnoDB (90% de las veces) entonces se debe proceder como describe a continuación, por el contrario, si el problema es con otro motor de almacenamiento lo más recomendable es restaurar la tabla o base de datos afectada desde cero. Algunos mensajes que indican problemas con InnoDB son los siguientes: 
 

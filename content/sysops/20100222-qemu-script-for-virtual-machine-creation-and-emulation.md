@@ -7,7 +7,7 @@ created: 2010/02/22 16:43:39
 
 [[Download qemu.sh here]](https://www.olafrv.com/wp-content/uploads/2010/02/qemu.sh.txt)
     
-    
+```bash
     #!/bin/sh
     
     ###
@@ -106,3 +106,4 @@ created: 2010/02/22 16:43:39
     
     echo Adding tap0 to br0
     /usr/sbin/brctl addif br0 tap0
+```

@@ -5,7 +5,9 @@ created: 2010/02/26 06:03:19
 
 # Instalando Canaima 2.0.4 vía Pendrive USB en Laptop HP Mini 110 1020la
 
-![](https://blog.olafrv.com/wp-content/uploads/2010/02/IMG00159-20100225-0003-300x225.jpg) **REQUERIMIENTOS**
+![](https://blog.olafrv.com/wp-content/uploads/2010/02/IMG00159-20100225-0003-300x225.jpg) 
+
+## REQUERIMIENTOS
 
   1. GNU/Linux (Tipo Debian) instalado.
   2. Pendrive USB de 2.0 GBytes.
@@ -13,29 +15,33 @@ created: 2010/02/26 06:03:19
   4. Archivo ZIP con [imagen de GNU/Linux Gparted ](https://gparted.sourceforge.net/livecd.php)
 
  
+## PRIMER PASO: CAMBIAR EL TAMAÑO DE LA PARTICIÓN WINDOWS (SI LO DESEAS)**
 
-**PRIMER PASO: CAMBIAR EL TAMAÑO DE LA PARTICIÓN WINDOWS (SI LO DESEAS)** Instalar los paquetes necesarios: 
+
+Instalar los paquetes necesarios: 
     
-    
+```bash
     aptitude update
     aptitude install syslinux mtools mbr dosfstools
-    
+```
 
-**Hacer un pendrive booteable con GNU/Linux Gparted** Suponiendo que el pendrive se detecta como /dev/sdd Si el pendrive no esta vacio, debemos eliminar todas las particiones: 
+## Hacer un pendrive booteable con GNU/Linux Gparted
+
+Suponiendo que el pendrive se detecta como /dev/sdd Si el pendrive no esta vacio, debemos eliminar todas las particiones: 
     
-    
+```bash    
     fdisk /dev/sdd
-    
+```
 
 Presionamos "d", hasta eliminar todas las particiones, "n" para crear una nueva, primaria "p", enter a todo lo demás. Para cambiar el tipo de la partición a FAT16 presionamos "t" y como código hexadecimal introducimos 06. Finalmente "w" para guardar los cambios y "q" para salir. También se puede utilizar cfdisk /dev/sdd, tiene problemas para escribir "si" acentuado cuando el programa lo pregunte, antes de ejecutar cfdisk se deben cambiar el lenguaje a inglés: 
     
-    
+```bash 
     export LANG=en_US
-    
+```
 
 Una vez que se ha blanqueado el pendrive instalamos gparted en él: 
     
-    
+```bash 
     mkfs.vfat -F 32 /dev/sdd1
     mkdir /media/usb
     mount /dev/sdd1 /media/usb
@@ -43,27 +49,25 @@ Una vez que se ha blanqueado el pendrive instalamos gparted en él:
     cd /media/usb/utils/linux
     bash makeboot.sh /dev/sdd1
     umount /media/usb
-    
+```
 
 **Bootear por el pendrive para que inicie GNU/Linux Gparted. ** Cambiar el tamaño de la partición primaria y dejar espacio libre, después presionar aplicar.  _**Si la partición NTFS de la laptop no esta limpia (fue apagada abruptamente) las operaciones de cambio de tamaño fallarán con el error 95. **_ Para resolverlo estando en gparted abra un terminal y ejecute ntfsfix 
 
- 
+## SEGUNDO PASO: INSTALACIÓN DE CANAIMA
 
-**SEGUNDO PASO: INSTALACIÓN DE CANAIMA** Ahora reutilizamos el mismo pendrive para instalar canaima: 
+Ahora reutilizamos el mismo pendrive para instalar canaima: 
     
-    
+```bash    
     mkfs.vfat -n CanaimaUSB /dev/sdd1
     install-mbr /dev/sdd
     syslinux /dev/sdd1
     mount /dev/sdd1 /mnt/usb
     tar xvfz canaima_vivo_usb_i386.tar.gz -C /media/CanaimaUSB
-    
+```
 
 Bootear con el pendrive e instalar canaima en el espacio libre. 
 
- 
-
-**TERCER PASO y ÚLTIMO PASO: CONFIGURAR EL HARDWARE EN CAINAMA**
+## TERCER PASO y ÚLTIMO PASO: CONFIGURAR EL HARDWARE EN CAINAMA
 
 > Los paquetes linux-headers y build-essential vienen por defecto instalado en Canaima, si no abrá que parir.
 
@@ -75,22 +79,23 @@ Pueden seguir este procedimiento: [Haciendo funcionar Broadcom 4312 en GNU/Linux
 
   * [hybrid-portsrc-x86_32-v5.60.48.36.tar.gz](https://www.olafrv.com/wp-content/uploads/2010/02/hybrid-portsrc-x86_32-v5.60.48.36.tar.gz)
   * [hybrid-portsrc-x86_64-v5.60.48.36](https://www.olafrv.com/wp-content/uploads/2010/02/hybrid-portsrc-x86_64-v5.60.48.36.tar.gz)
+
 Luego, 
     
-    
+```bash
     tar xfz hybrid-portsrc-x86-32_5_10_27_12.tar.gz
     make && make install
     depmod -a
     modprobe ieee80211_crypt_tkip
     modprobe wl
-    
+```    
 
 Añadir las siguientes líneas a /etc/modules 
     
-    
+```bash 
     ieee80211_crypt_tkip
     wl
-    
+```
 
 **Tarjeta de Red Alámbrica**
 
@@ -100,14 +105,15 @@ Descargar el controlador desde aquí:
 
   * <https://www.jfwhome.com/wp-content/uploads/2009/08/atheros-wired-driver-1005ha-linux.zip>
   * <https://www.olafrv.com/wp-content/uploads/2010/02/atheros-wired-driver-1005ha-linux.zip>
+
 Luego, 
     
-    
+```bash    
     unzip atheros-wired-driver-1005ha-linux.zip
     cd atheros-wired-driver-1005ha-linux
     make && make install
     modprobe atl1e
-    
+```
 
 **Sonido**
 
@@ -115,10 +121,10 @@ Luego,
 
 > Cito textualmente a** apostols**: La versión de ALSA (1.0.17) que tiene Debian Lenny/Canaima no tiene buen soporte para esta tarjeta de sonido, solo tenemos que descargar una nueva versión del driver (empaquetado por la gente de LinuxANT) de: https://www.linuxant.com/alsa-driver/archive/alsa-driver-linuxant-1.0.20.3/alsa-driver-linuxant_1.0.20.3_all.deb.zip, y hacer: 
     
-    
+```bash 
     unzip alsa-driver-linuxant_1.0.20.3_all.deb.zip
     dpkg -i  alsa-driver-linuxant_1.0.20.3_all.deb
-    
+```
 
 **Imagen Splash de GRUB** En /boot/grub/grub.cfg modificar vga=791 por vga=785 en las líneas del kernel de las entradas del menú. Luego, instalar GRUB en el disco principal (/dev/sda en mi caso) ejecutando: 
     

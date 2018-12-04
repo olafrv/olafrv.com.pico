@@ -2,7 +2,7 @@
 profile: assets/profile.png # Profile Picture for Header
 og_image: assets/profile.png # Open Graph Image for Link Previews
 description_1: Hybrid IT Solution Architect &amp;<br> Full Stack Software Developer
-description_2: +15 years, +200 organizations, +500 IT projects & solutions delivered
+description_2: +200 organizations with IT projects & solutions delivered over +15 years
 news_text: News # News Heading
 about_text: About # About Heading
 about_1: <b>Chief Solution Architect (CSA)</b> working at <a target="_blank" href="https://www.daycohost.com" class="link-w-s">Daycohost</a> and freelancer developer <br><br> Always improving my <b>curriculum vitae (<a href="?cv/en" class="link-w-s">English</a>, <a href="?cv/es" class="link-w-s">Espa&ntilde;ol</a>)</b> with new experiences. <br><br>Follow me on my social networks bellow, or check my <a target="_blank" href="https://www.linkedin.com/in/olafrv/" class="link-w-s">Linkedin</a> profile. 

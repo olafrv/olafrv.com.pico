@@ -1,6 +1,6 @@
 ---
 title: An Approach To Hyper-Cloud Services Capital and Operational Expenses and Price Estimation
-image: assets/cloud.png
+image: capex_opex_hypercloud.png
 created: 2018/03/13 07:38:10
 ---
 

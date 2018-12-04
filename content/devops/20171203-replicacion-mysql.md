@@ -1,6 +1,7 @@
 ---
 title: Replicación MySQL
 created: 2017/12/03 17:21:48
+image: mysql.jpg
 ---
 
 # Replicación MySQL

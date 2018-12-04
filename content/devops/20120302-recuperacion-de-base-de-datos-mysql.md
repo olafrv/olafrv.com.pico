@@ -1,6 +1,7 @@
 ---
 title: Recuperación de base de datos MySQL
 created: 2012/03/02 00:17:32
+image: mysql.jpg
 ---
 
 # Recuperación de base de datos MySQL

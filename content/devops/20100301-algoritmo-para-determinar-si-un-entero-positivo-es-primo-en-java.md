@@ -1,6 +1,7 @@
 ---
 title: Algoritmo para determinar si un entero positivo es primo en JAVA
 created: 2010/03/01 23:18:51
+image: java.png
 ---
 
 # Algoritmo para determinar si un entero positivo es primo en JAVA

@@ -1,6 +1,7 @@
 ---
 title: PHP Query String Class
 created: 2010/02/21 05:49:20
+image: php.jpg
 ---
 
 # PHP Query String Class

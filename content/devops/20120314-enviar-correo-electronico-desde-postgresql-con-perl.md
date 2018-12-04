@@ -1,6 +1,7 @@
 ---
 title: Enviar correo electrónico desde PostgreSQL con PERL
 created: 2012/03/14 11:18:53
+image: postgresql.png
 ---
 
 # Enviar correo electrónico desde PostgreSQL con PERL

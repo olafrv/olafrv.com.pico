@@ -9,14 +9,17 @@
             </div>
             <div class="row">
                 {% for page in pages|sort_by("id")|reverse if page.id starts with url_param('root','string') and  not ( page.url ends with 'index' ) %}
-                    <div class="col-sm-12 portfolio-item">
+                    <div class="col-sm-4 portfolio-item">
                         <a href="{{ base_url ~ '/' ~ page.id ~ "?post=yes" }}" class="portfolio-link" data-toggle="modal">
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>
                                 </div>
                             </div>
-									 <h3 class="text-center">{{ page.title }}</h3>
+                            <div class="text-center">
+                                <img src="{{ base_url ~ '/assets/' ~ page.meta.image }}" class="rounded" alt="">
+                            </div>
+                            <h5 class="text-center">{{ page.title }}</h5>
                         </a>
                     </div>
                 {% endfor %}

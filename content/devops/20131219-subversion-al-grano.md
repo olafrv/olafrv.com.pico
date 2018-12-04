@@ -1,6 +1,7 @@
 ---
 title: Subversion, Al grano!
 created: 2013/12/19 14:26:27
+image: subversion.jpg
 ---
 
 # Subversion, Al grano!

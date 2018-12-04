@@ -1,6 +1,7 @@
 ---
 title: Autenticación LDAP en JAVA
 created: 2010/05/19 19:23:15
+image: java.png
 ---
 
 # Autenticación LDAP en JAVA

@@ -1,6 +1,7 @@
 ---
 title: MySQL High Availability Solutions
 created: 2016/11/25
+image: mysql.jpg
 ---
 
 # MySQL High Availability Solutions

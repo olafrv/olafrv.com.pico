@@ -3,7 +3,7 @@ title: Recuperación de base de datos MySQL
 created: 2012/03/02 00:17:32
 ---
 
-### Recuperación de base de datos MySQL
+# Recuperación de base de datos MySQL
 
 ## I.- MOTORES DE BASE DE DATOS
 
@@ -19,7 +19,7 @@ En su mayoría los archivos de bases de datos se almacenan en archivos con el no
 
 ## III.- REPARACIÓN DE BASES DE DATOS
 
-# III.A.- SERVIDOR MYSQL EN LÍNEA
+### III.A.- SERVIDOR MYSQL EN LÍNEA
 
 Antes de realizar cualquier labor de mantenimiento se deben detener los sistemas que se conectan al servidor de base de datos, o bien, reportar el servidor caído denegando las conexiones. La manera más fácil de lograrlo es bloqueando las conexiones IP de la red local (Interfaz eth0) en el servidor MySQL utilizando iptables, dependiendo del número de instancias (3306, 3307, 3308) y del número de interfaces los comandos serían los siguientes: 
     
@@ -53,7 +53,7 @@ Si una base de datos no pudo ser reparada se debe eliminar y restaurar partiendo
 
 Si no tiene un respaldo entonces la información se habrá perdido definitivamente. 
 
-# III.B.- SERVIDOR DE MYSQL DETENIDO
+### III.B.- SERVIDOR DE MYSQL DETENIDO
 
 Si el servidor MySQL no se está ejecutando debemos determinar la causa inspeccionando el log de error del servidor. Si no está configurado debe activarlo colocando en el archivo de configuración my.cf:
 

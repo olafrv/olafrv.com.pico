@@ -3,13 +3,13 @@ title: Shell Script para cambiar de pasarela de Internet
 created: 2010/02/21 05:22:36
 ---
 
-# Shell Script para cambiar de pasarela de Internet
+## Shell Script para cambiar de pasarela de Internet
 
-## Problema
+# Problema
 
 Cómo cambiar automáticamente de puerta de enlace (pasarela) sin tener que reconfigurar cada estación de trabajo en una red local (LAN) con dos accesos a Internet. ![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall-Switch-300x166.jpg) 
 
-## Solución 
+# Solución 
 
   - Instalar y configurar el demonio cron, editar el _/etc/crontab_ para que ejecute cada minuto un scripts de comprobación y cambio atuomático de la puerta de enlace así: 
   

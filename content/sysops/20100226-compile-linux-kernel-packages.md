@@ -5,7 +5,9 @@ created: 2010/02/26 06:02:30
 
 # Compile linux-* kernel packages
 
-In Debian Like Systems it goes like this… **Installing need packages**
+In Debian Like Systems it goes like this
+
+**Installing need packages**
     
 ```bash
     apt-get install kernel-package libncurses5-dev fakInstalling need packageseroot wget bzip2 build-essential

@@ -5,7 +5,9 @@ created: 2010/01/19 05:17:36
 
 # Linux shell script to backup files and databases
 
-**Introducción** Tape Backup (o bien, _tape-backup.sh_) es un script con licencia [GNU/GPL](https://www.gnu.org/licenses/gpl.txt) diseñado para el respaldo completo (full) de directorios y bases de datos [PostgreSQL](https://www.postgresql.org/) y [MySQL](https://www.mysql.com/), en una unidad de cinta, localmente o en una carpeta compartida en MS Windows (o SAMBA). Última versión disponible en: <https://github.com/olafrv/tape-backup> 
+**Introducción**
+
+Tape Backup (o bien, _tape-backup.sh_) es un script con licencia [GNU/GPL](https://www.gnu.org/licenses/gpl.txt) diseñado para el respaldo completo (full) de directorios y bases de datos [PostgreSQL](https://www.postgresql.org/) y [MySQL](https://www.mysql.com/), en una unidad de cinta, localmente o en una carpeta compartida en MS Windows (o SAMBA). Última versión disponible en: <https://github.com/olafrv/tape-backup> 
 
 **Vínculos**
 

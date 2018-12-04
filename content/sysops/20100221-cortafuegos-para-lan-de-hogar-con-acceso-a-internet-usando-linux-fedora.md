@@ -5,15 +5,21 @@ created: 2010/02/21 05:17:27
 
 # Cortafuegos para LAN de Hogar con Acceso a Internet usando Linux Fedora
 
-### Cortafuegos para LAN de Hogar con Acceso a Internet usando Linux Fedora
+**Instalación de Hardware**
 
-**Instalación de Hardware** ** ** ![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall_html_m588681cb-300x190.png) **Instalación de Software** Descargar los paquetes: 
+![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall_html_m588681cb-300x190.png)
+
+**Instalación de Software**
+
+Descargar los paquetes: 
 
   1. _iptables_ desde <https://www.fedora.redhat.com/> en Downloads >> Mirrors, elije una dirección ftp o http (i.e. <ftp://ftp.linux.ncsu.edu/pub/fedora/linux/core/$version/$cpu/os>) donde $version puede ser 1,2,3 y $cpu es i386, es decir, Fedora 3 para procesadores i386 en adelante).
   2. _fwbuilder _desde <https://www.fwbuilder.org/>
   3. _fwbuilder-ipt _desde <https://www.fwbuilder.org/>
   4. _libfwbuilder _desde <https://www.fwbuilder.org/>
-Se deben instalar en el siguiente orden: 1,4,3,2 **Configuración del software**
+Se deben instalar en el siguiente orden: 1,4,3,2 
+
+**Configuración del software**
 
   * Ejecutar los siguientes comandos$ mkdir /root/firewall $ echo "/etc/init.d/iptables restart" >> /root/firewall/firewall.sh $ echo ". /root/firewall/$HOSTNAME,sh“ >> /root/firewall/firewall.sh $ echo ". /root/firewall/firewall.sh" >> /etc/rc.local $ chkconfig iptables on $ fwbuilder &
   * Seleccione **Create new project file **y guarde un archivo .fwb con el nombre de su computadora (Ejecute echo $HOSTNAME para ver el nombre de su computadora, la mía era bicha).

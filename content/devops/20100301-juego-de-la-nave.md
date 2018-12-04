@@ -1,6 +1,7 @@
 ---
 title: Juego de la Nave
 created: 2010/03/01 23:57:50
+image: nave.png
 ---
 
 # Juego de la Nave

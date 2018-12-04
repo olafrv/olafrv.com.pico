@@ -1,6 +1,7 @@
 ---
 title: Extract ASCII (undescored) subject form MIME email files
 created: 2011/12/20 11:17:57
+image: perl.gif
 ---
 
 # Extract ASCII (undescored) subject form MIME email files

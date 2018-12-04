@@ -1,6 +1,7 @@
 ---
 title: Download Binary File Function within Microsoft VBScript
 created: 2010/05/23 15:23:11
+image: basic.jpg
 ---
 
 # Download Binary File Function within Microsoft VBScript

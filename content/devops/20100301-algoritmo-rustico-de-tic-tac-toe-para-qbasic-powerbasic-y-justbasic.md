@@ -1,6 +1,7 @@
 ---
 title: Algoritmo rústico de Tic-Tac-Toe para QBASIC, Powerbasic y Justbasic
 created: 2010/03/01 23:34:35
+image: basic.jpg
 ---
 
 # Algoritmo rústico de Tic-Tac-Toe para QBASIC, Powerbasic y Justbasic

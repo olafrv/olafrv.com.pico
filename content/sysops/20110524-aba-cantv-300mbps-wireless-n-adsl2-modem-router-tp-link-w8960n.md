@@ -4,8 +4,6 @@ created: 2011/05/24 00:06:31
 image: wimax.jpg
 ---
 
-#### Modem Router TP-LINK W8960N (300Mbps Wireless N ADSL2+) con ABA de CANTV
-
 **Quick Setup - WAN Configurations (UPDATE 2011/Jul/17)**
 
 Para aquellos que desean configurar sus nuevos routers WiFi + ASDL en [Venezuela](https://maps.google.com/maps?hl=es-419&q=google+maps+venezuela&ie=UTF8&hq=&hnear=Venezuela&gl=ve&z=5) aquí les dejo la configuración del router [ TP-LINK W8960](https://www.tp-link.com/products/productDetails.asp?class=&pmodel=TD-W8960N) que utilizo para conectarme con el servicio [ABA](https://www.cantv.com.ve/seccion.asp?pid=1&sid=1377&id=1&und=1&cat=item_ig&item=item_2&item_name=Planes%20y%20Precios) de [CANTV](https://www.cantv.com.ve):

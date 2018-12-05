@@ -1,10 +1,8 @@
 ---
 title: Algoritmo rústico de Tic-Tac-Toe para QBASIC, Powerbasic y Justbasic
-created: 2010/03/01 23:34:35
+created: 2010/03/01
 image: basic.jpg
 ---
-
-# Algoritmo rústico de Tic-Tac-Toe para QBASIC, Powerbasic y Justbasic
 
 A continuación tres (3) implementaciones rudimentarias del juego Tic-Tac-Toe (o "la vieja" como lo conozco) de los años 1996 ([QBasic](https://es.wikipedia.org/wiki/QBASIC)), 1999 ([Powerbasic](https://www.powerbasic.com/)) y 2007 (traducción para [Justbasic](https://www.justbasic.com/)).
 

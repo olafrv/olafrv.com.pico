@@ -1,10 +1,8 @@
 ---
 title: Load balancing and failover TCP/IP connections to multiple servers with "balance"
-created: 2011/09/14 17:27:55
+created: 2011/09/14
 image: balance.jpg
 ---
-
-# Load balancing and failover TCP/IP connections to multiple servers with "balance"
 
 Balance es un programa que nos permite realizar un balanceo de carga a través de un proxy TCP simple con round robin y mecanismos de failover, todo por la cónsola. El sitio Web oficial es: <https://www.inlab.net/load-balancer/>
 

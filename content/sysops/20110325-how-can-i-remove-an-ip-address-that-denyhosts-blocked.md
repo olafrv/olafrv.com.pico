@@ -1,13 +1,12 @@
 ---
 title: How can I remove an IP address that DenyHosts blocked?
 created: 2011/03/25 12:12:36
+image: linux.jpg
 ---
 
-# How can I remove an IP address that DenyHosts blocked?
-
 Just with this script: 
-    
-    
+
+```bash
     ###
     # FILE: denyhosts-remove.sh (2011/Abr/06)
     # AUTHOR: Olaf Reitmaier Veracieta
@@ -29,3 +28,4 @@ Just with this script:
     else
             echo "Usage ./$0 "
     fi
+```

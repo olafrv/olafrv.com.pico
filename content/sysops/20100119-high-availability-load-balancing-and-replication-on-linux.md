@@ -1,9 +1,8 @@
 ---
 title: High Availability, Load Balancing and Replication on Linux
 created: 2010/01/19 03:50:24
+image: linux.jpg
 ---
-
-# High Availability, Load Balancing and Replication on Linux
 
 Complete and a practical guide for configuring HA, LB or Replication with Linux boxes. 
 

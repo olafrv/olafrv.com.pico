@@ -4,8 +4,6 @@ created: 2012/04/13 15:01:51
 image: dkim.png
 ---
 
-# DKIM en Postfix con GNU/Linux Debian
-
 **Introducción** 
 
 DKIM (Domain Key Identified Email) es un mecanismo de seguridad que permite la autenticación de mensajes de correo electrónico, descrito en el RFC-5585 disponible en https://www.dkim.org/specs/rfc5585.html. 

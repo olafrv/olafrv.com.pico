@@ -4,8 +4,6 @@ created: 2013/05/29
 image: 3pardeb.png
 ---
 
-### Gestión de Volúmenes SAN del 3PAR en GNU/Linux Debian (Versión 7)
-
 Descargar manual en texto plano [hp_3par_with_debian_v7.txt](https://www.olafrv.com/wordpress/wp-content/uploads/2013/08/hp_3par_with_debian_v7.txt) 
 
 #### Contenido

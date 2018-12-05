@@ -1,9 +1,8 @@
 ---
 title: Modify CONTROL file in Debian Package
 created: 2010/02/21 06:23:04
+image: linux.jpg
 ---
-
-# Modify CONTROL file in Debian Package
 
 Suppose you have your-package.deb file and want to change files inside the package:
 

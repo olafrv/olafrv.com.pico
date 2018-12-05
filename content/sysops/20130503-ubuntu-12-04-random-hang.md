@@ -4,8 +4,6 @@ created: 2013/05/03
 image: ubuntu.png
 ---
 
-# Random Ubuntu 12.04 hangs (freeze), hard reset needed
-
 **MY PC** 
 
 ASUS P67 Sabertooh Lastest BIOS Update (Available on May 5th, 2013) Intel Core i7 2600K 16 GB RAM 

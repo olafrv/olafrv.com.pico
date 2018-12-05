@@ -4,8 +4,6 @@ created: 2013/04/05
 image: linux.jpg
 ---
 
-# Generate Random Preshared Key With "dd"
-
 State of the art, so elegant!: 
     
 ```bash

@@ -3,8 +3,6 @@ title: FALSOS!!! Pendrives Kingston Data Traveler 128GB procedentes de CHINA
 created: 2010/11/25 01:30:07
 ---
 
-# FALSOS!!! Pendrives Kingston Data Traveler 128GB procedentes de CHINA
-
 ![](https://blog.olafrv.com/wp-content/uploads/2010/11/black-264x300.jpg) Vínculos interesantes: 
 
   * [Pendrive FALSOS en YouTube](https://www.youtube.com/results?search_query=fake+pendrive+128+gb&aq=f)

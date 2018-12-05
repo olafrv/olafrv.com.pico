@@ -3,10 +3,6 @@ title: HP Array Configuration Utility RAID Controller Checker Script
 created: 2010/11/05 15:16:11
 ---
 
-# HP Array Configuration Utility RAID Controller Checker Script
-
-# HP Array Configuration Utility RAID Controller Checker Script
-
 ## Install the HP Managment Component Pack for Proliant
 
 The bellow **hpacucli-check.sh** is a bash shell script that checks the status of controller, array, logical and physical driver on a HP Server with the command hpaculi (HP Array Configuration Utility Client) installed, also syslogging and sending an email with errors, warning and alerts to administrators. From 2012 the HP Array Configuration Utility is part of the HP Managment Component Pack for Proliant (MCP) instead of the HP Support Pack for Proliant (SPP), the former provides agent software for use on community-supported distributions, while the last one, provides support for RedHat and SUSE distributions. Also the MCP (unlike the SPP, HP Support Pack for Proliant) does not provide drivers and firmware (firmware is provided via HPSUM, and drivers are provided by the distribution vendors). You can review the MCP product home page for more information, including support matrices and iso image downloads. The **OLD** HP SPP CD for Debian GNU/Linux 5.0 ("lenny") and Ubuntu 9.04 ("jaunty") x86 and AMD64/EM64T" was downloadable from the HP Support Web Site (at least in December, 2012): [https://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&cc;=US&swItem;=MTX-799829d8271f455d9367978b5a&prodTypeId;=15351&prodSeriesId;=1121516](https://h20000.www2.hp.com/bizsupport/TechSupport/SoftwareDescription.jsp?lang=en&cc=US&swItem=MTX-799829d8271f455d9367978b5a&prodTypeId=15351&prodSeriesId=1121516) The **NEW** HP MCP from [Hewlett-Packard (HP) Software Delivery Repository]( https://downloads.linux.hp.com/SDR/) or directly here <https://downloads.linux.hp.com/SDR/project/mcp/> The HP MCP includes: 
@@ -23,8 +19,8 @@ The bellow **hpacucli-check.sh** is a bash shell script that checks the status o
 ## HP ACU CLI Checker Script
 
 This is an improved version from the previus script, test for 6 months in HP Proliant G4, G5, G6 and G7 Servers with GNU/Linux Debian 6/7, who where migrated from use HP SPP to HP MCP, for more information about this procedure in Debian look at: <https://wiki.debian.org/HP/ProLiant >
-    
-    
+
+```bash
     #!/bin/bash
     
     ###
@@ -177,6 +173,8 @@ This is an improved version from the previus script, test for 6 months in HP Pro
     		then
     			msg="[WARN
 
+```
+
 ## Comments
 
 **[Damon Smith](#3801 "2011-04-02 03:53:17"):** Just setup a DL180 with a P410 as a homebuilt SAN and this script proved priceless! Thanks a lot!
@@ -186,4 +184,3 @@ This is an improved version from the previus script, test for 6 months in HP Pro
 **[Pedro](#8771 "2014-06-04 05:40:53"):** It's great, but the e-mail function ?
 
 **[olafrv](#9398 "2014-09-14 18:36:09"):** You must run the script from a cronjob and set the MAIL global var, because the script is designed to output messages on debugging mode or when it detects errors.
-

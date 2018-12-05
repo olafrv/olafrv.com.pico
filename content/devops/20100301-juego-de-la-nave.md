@@ -1,10 +1,8 @@
 ---
 title: Juego de la Nave
-created: 2010/03/01 23:57:50
+created: 2010/03/01
 image: nave.png
 ---
-
-# Juego de la Nave
 
 Bien, un juego en flash que nunca terminó de editarse ("Aquí va el nombre", _24 de Julio de 2004_), principalmente desarrollado por [José Carrero](mailto:josercl@gmail.com) y con algunos consejos de mi parte en [Action Script y Flash](https://en.wikipedia.org/wiki/ActionScript), al final logramos algo genial y divertido que nunca olvido:  
 

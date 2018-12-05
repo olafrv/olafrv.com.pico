@@ -1,10 +1,8 @@
 ---
 title: Autenticación LDAP en JAVA
-created: 2010/05/19 19:23:15
+created: 2010/05/19
 image: java.png
 ---
-
-# Autenticación LDAP en JAVA
 
 [*** Click Here to Download the JAVA code ***](https://www.olafrv.com/wp-content/uploads/2010/05/test.zip)
 

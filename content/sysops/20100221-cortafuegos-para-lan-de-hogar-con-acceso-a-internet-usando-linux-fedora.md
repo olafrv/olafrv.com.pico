@@ -1,9 +1,8 @@
 ---
 title: Cortafuegos para LAN de Hogar con Acceso a Internet usando Linux Fedora
 created: 2010/02/21 05:17:27
+image: linux.jpg
 ---
-
-# Cortafuegos para LAN de Hogar con Acceso a Internet usando Linux Fedora
 
 **Instalación de Hardware**
 

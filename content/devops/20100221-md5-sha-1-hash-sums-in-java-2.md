@@ -1,10 +1,8 @@
 ---
 title: MD5, SHA-1 hash sums in Java 2
-created: 2010/02/21 05:23:54
+created: 2010/02/21
 image: java.png
 ---
-
-# MD5, SHA-1 hash sums in Java 2
 
 Download the class [HashSum.java](https://www.olafrv.com/wp-content/uploads/2010/02/HashSum.java_.zip)
 

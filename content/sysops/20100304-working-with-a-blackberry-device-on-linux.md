@@ -1,9 +1,8 @@
 ---
 title: Working with a Blackberry device on Linux
 created: 2010/03/04 22:58:16
+image: linux.jpg
 ---
-
-# Working with a Blackberry device on Linux
 
 > This software and task have been tested on a Blackberry (bb) 8520 device
 
@@ -12,47 +11,53 @@ First, you must download and install "Barry" a suite of blackberry tools for GNU
 > barry-util barrybackup-gui libbarry0 opensync-plugin-barry opensync-plugin-barry-dbg 
 
 Use dpkg -i  to install each package. To know what command names have been installed run: 
-    
-    
+
+```bash
     dpkg --listfiles barry-util | grep bin
     dpkg --listfiles barrybackup-gui | grep bin
-    
+```
 
 Then, here you are: Export (save) address book from bb to LDIF file 
-    
-    
+
+```bash
     btool -c "" > bb.ldif
+```
 
 Import to bb an address book LDIF file (Test) 
-    
-    
+
+```bash
     upldif < bb.ldif
+```
 
 Import to bb an address book LDIF file (Do it!!! I will delete all contacts on bb device!!!) 
-    
-    
-    upldif -u < bb.ldif
 
-List LDIF/LDAP Mapping between Barry fields and bb device database fields 
-    
-    
+```bash
+    upldif -u < bb.ldif
+```
+
+List LDIF/LDAP Mapping between Barry fields and bb device database fields
+
+```bash
     btool -M
+```
 
 List all bb device database names (some can't be saved) 
-    
-    
+
+```bash
     btool -t
+```
 
 Dump in Bin Hex format a database (I think is only for programmers) 
-    
-    
+
+```bash
     btool -d "Address Book"
+```
 
 > Previously to using these commands I needed to export my Mozilla Thunderbird address book to LDIF file, then import it to bb device.
 
 Also you can convert a comma separated file (CSV) and convert it to LDIF with this script: 
-    
-    
+
+```bash
     #!/bin/bash
     
     ###
@@ -124,11 +129,6 @@ Also you can convert a comma separated file (CSV) and convert it to LDIF with th
     	echo
     
     done
-    
+```
 
 Cheers!!! :-)
-
-## Comments
-
-**[skullquake](#7003 "2014-04-05 03:09:07"):** Thankyou for csv2ldif the conversion script. Very useful. Now I'm gonna try a reverse one.
-

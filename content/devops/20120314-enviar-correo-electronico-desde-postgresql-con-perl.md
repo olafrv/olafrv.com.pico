@@ -1,10 +1,8 @@
 ---
 title: Enviar correo electrónico desde PostgreSQL con PERL
-created: 2012/03/14 11:18:53
+created: 2012/03/14
 image: postgresql.png
 ---
-
-### Enviar correo electrónico desde PostgreSQL con PERL
 
 Para poder enviar correos desde PostgreSQL en GNU/Linux existe una forma sencilla de hacerlo, un script PERL disponible dentro del manejador de base de datos a través de una función.
 

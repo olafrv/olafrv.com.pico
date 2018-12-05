@@ -1,9 +1,9 @@
 ---
 title: Linux shell script to backup files and databases
 created: 2010/01/19 05:17:36
+image: linux.jpg
 ---
 
-### Linux shell script to backup files and databases
 
 Script hecho en BASH diseñado para realizar respaldo completo (full) de directorios y bases de datos MySQL y PostgreSQL en disco o unidad de cinta local o en un servidor remoto via SSH, FTP o CIFS (SAMBA). 
 

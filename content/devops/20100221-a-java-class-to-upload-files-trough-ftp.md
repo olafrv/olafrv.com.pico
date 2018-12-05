@@ -1,10 +1,8 @@
 ---
 title: A Java Class to upload files trough FTP
-created: 2010/02/21 05:29:59
+created: 2010/02/21
 image: java.png
 ---
-
-# A Java Class to upload files trough FTP
 
 Download the class [Ftp.java](https://www.olafrv.com/wp-content/uploads/2010/02/Ftp.java_.zip)
 

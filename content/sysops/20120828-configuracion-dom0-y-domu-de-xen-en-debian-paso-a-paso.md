@@ -4,8 +4,6 @@ created: 2012/08/28
 image: xen.png
 ---
 
-# Configuración de Xen en Linux Debian
-
 # Archivo de instrucciones
 
 ```txt

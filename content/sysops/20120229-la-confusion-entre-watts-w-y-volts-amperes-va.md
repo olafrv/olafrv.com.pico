@@ -4,8 +4,6 @@ created: 2012/02/29
 image: ampere.jpg
 ---
 
-# La confusión en computación sobre los Watts (W) y los Volts-Ampères (VA)
-
 Fuentes: [www.unicrom.com](https://www.unicrom.com/topic.asp?TOPIC_ID=4983&FORUM_ID=25&CAT_ID=5&Forum_Title=UPS+-+Sistemas+de+Fuerza+Ininterrumpible&Topic_Title=los+KVA), [www.um.es](https://www.um.es/docencia/barzana/FIS/watios_va.html), [www.newsai.es](https://www.newsai.es/fqa.htm). 
 
 **Introducción.** 

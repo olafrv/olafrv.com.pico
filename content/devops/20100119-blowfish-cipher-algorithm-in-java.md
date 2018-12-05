@@ -1,10 +1,8 @@
 ---
 title: Blowfish Cipher Algorithm in Java
-created: 2010/01/19 04:25:55
+created: 2010/01/19
 image: java.png
 ---
-
-# Blowfish Cipher Algorithm in Java
 
 Download source code here: [Blowfish.tar.gz](https://www.olafrv.com/wordpress/wp-content/uploads/2010/01/Blowfish.tar.gz)
 

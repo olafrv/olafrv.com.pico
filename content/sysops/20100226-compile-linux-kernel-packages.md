@@ -1,9 +1,8 @@
 ---
 title: Compile linux-* kernel packages
 created: 2010/02/26 06:02:30
+image: linux.jpg
 ---
-
-# Compile linux-* kernel packages
 
 In Debian Like Systems it goes like this
 

@@ -3,12 +3,12 @@ title: Debian GRUB 1 and 2 with password (UPDATED)
 created: 2010/08/19 11:52:36
 ---
 
-# Debian GRUB 1 and 2 with password (UPDATED)
+In Debian Lenny (Stable) the GRUB 2 version is 1.96 and is still without password support. If you install a more recent version from Debian Squeeze (Testing) such as 1.97, which comes with password support. 
 
-In Debian Lenny (Stable) the GRUB 2 version is 1.96 and is still without password support. If you install a more recent version from Debian Squeeze (Testing) such as 1.97, which comes with password support. ***** This script is intented GRUB version > 1.96, but please test it before use on production systems *****
-    
-    
-    
+***** This script is intented GRUB version > 1.96, but please test it before use on production systems *****
+
+
+```bash
     ###
     # FILE: grubpw2.sh (June 1th, 2011)
     # USAGE: Set GRUB 1 and 2 superuser (root) password,
@@ -94,3 +94,4 @@ In Debian Lenny (Stable) the GRUB 2 version is 1.96 and is still without passwor
     
     	fi
     fi
+```

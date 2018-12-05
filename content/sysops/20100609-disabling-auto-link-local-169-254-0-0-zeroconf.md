@@ -3,8 +3,6 @@ title: Disabling auto link-local 169.254.0.0 zeroconf
 created: 2010/06/09 23:52:06
 ---
 
-# Disabling auto link-local 169.254.0.0 zeroconf
-
 **History**
 
 > Zero configuration networking allow novice users to interconnect network enabled devices without any (zero) configuration, it is used when there is no DHCP and DNS servers available on the network. Zeroconf provides: 

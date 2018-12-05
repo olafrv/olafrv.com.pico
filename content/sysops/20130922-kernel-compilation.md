@@ -4,8 +4,6 @@ created: 2013/09/22 22:31:31
 image: linux.jpg
 ---
 
-# Kernel Compilation
-
 Download stable Kernel **linux-3.11.1.tar.xz** from [www.kernel.org](https://www.kernel.org) and then: 
     
     

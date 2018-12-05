@@ -1,10 +1,8 @@
 ---
 title: Algoritmo para determinar si un entero positivo es primo en JAVA
-created: 2010/03/01 23:18:51
+created: 2010/03/01
 image: java.png
 ---
-
-# Algoritmo para determinar si un entero positivo es primo en JAVA
 
 A continuación tienen el archivo **"primo.java"**, compilarlo y ejecutarlo pasándole como argumento un número entero positivo cualquiera.
 

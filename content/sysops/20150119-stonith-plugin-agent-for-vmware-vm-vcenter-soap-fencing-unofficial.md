@@ -4,8 +4,6 @@ created: 2015/01/19 16:31:35
 image: peacemaker.png
 ---
 
-# Stonith Plugin Agent for VMWare VM VCenter SOAP Fencing (Unofficial).
-
 Helpful when stonith version does not include "fence_vmare_soap" plugin agent, some cases are: 
 
   * Canonical Ubuntu Linux 14.04 LTS

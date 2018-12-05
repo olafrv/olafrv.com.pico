@@ -4,9 +4,7 @@ created: 2011/08/29
 image: geoip.png
 ---
 
-### Bloqueo de direcciones IP por país con iptables (GeoIP xtable-addons)
-
-Ok, supongamos que sus servidores están en **Venezuela** y nos preguntamos: 
+Supongamos que sus servidores están en **Venezuela** y nos preguntamos: 
 
   * ¿Los usuarios de sus servicios Web lo visitan desde **China, Croacia, Vietnam**?
   * ¿Recibe correos de personas ubicadas en **Indonesia, Filipinas y Hawai**?

@@ -1,10 +1,8 @@
 ---
 title: PHP Query String Class
-created: 2010/02/21 05:49:20
+created: 2010/02/21
 image: php.jpg
 ---
-
-# PHP Query String Class
 
 This class can manipulate query strings used in HTTP requests that are used to pass arguments and values to page scripts. It can get and set argument values, delete arguments and count the number of ocurrences in a given query string. 
 

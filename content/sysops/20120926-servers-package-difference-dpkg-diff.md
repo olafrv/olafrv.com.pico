@@ -4,8 +4,6 @@ created: 2012/09/26
 image: linux.jpg
 ---
 
-# Servers package difference => "dpkg-diff"
-
 **Problem** 
 
 You have two linux servers A and B, you want to know what installed packages are not in both servers (A-B joined with B-A). 

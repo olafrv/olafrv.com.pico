@@ -1,9 +1,8 @@
 ---
 title: QEMU script for virtual machine creation and emulation
 created: 2010/02/22 16:43:39
+image: linux.jpg
 ---
-
-# QEMU script for virtual machine creation and emulation
 
 [[Download qemu.sh here]](https://www.olafrv.com/wp-content/uploads/2010/02/qemu.sh.txt)
     

@@ -1,15 +1,22 @@
 ---
 title: Servers package difference => "dpkg-diff"
-created: 2012/09/26 22:59:12
+created: 2012/09/26
+image: linux.jpg
 ---
 
 # Servers package difference => "dpkg-diff"
 
-**Problem** You have two linux servers A and B, you want to know what installed packages are not in both servers (A-B joined with B-A). **Solution** The following script (dpkg-diff.sh, tested on GNU/Linux Debian Lenny/Squeeze). 
+**Problem** 
+
+You have two linux servers A and B, you want to know what installed packages are not in both servers (A-B joined with B-A). 
+
+**Solution** 
+
+The following script (dpkg-diff.sh, tested on GNU/Linux Debian Lenny/Squeeze). 
 
 > **dpkg-query** command and a **ssh server** must be installed on both servers.
     
-    
+```bash    
     ###
     # FILE: dpkg-diff.sh
     # AUTHOR: Olaf Reitmaier 
@@ -59,3 +66,4 @@ created: 2012/09/26 22:59:12
     done
     echo
     echo
+```

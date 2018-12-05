@@ -3,13 +3,13 @@ title: Linux shell script to backup files and databases
 created: 2010/01/19 05:17:36
 ---
 
-# Linux shell script to backup files and databases
+### Linux shell script to backup files and databases
 
-**Introducción**
+Script hecho en BASH diseñado para realizar respaldo completo (full) de directorios y bases de datos MySQL y PostgreSQL en disco o unidad de cinta local o en un servidor remoto via SSH, FTP o CIFS (SAMBA). 
 
-Tape Backup (o bien, _tape-backup.sh_) es un script con licencia [GNU/GPL](https://www.gnu.org/licenses/gpl.txt) diseñado para el respaldo completo (full) de directorios y bases de datos [PostgreSQL](https://www.postgresql.org/) y [MySQL](https://www.mysql.com/), en una unidad de cinta, localmente o en una carpeta compartida en MS Windows (o SAMBA). Última versión disponible en: <https://github.com/olafrv/tape-backup> 
+Última versión disponible en: <https://github.com/olafrv/tape-backup> 
 
-**Vínculos**
+#### References
 
   * [How to use a tape drive](https://nic.phys.ethz.ch/readme/80)
   * [How to use tapes on unix](https://www.mssl.ucl.ac.uk/www_computing/buns/tapes.html)

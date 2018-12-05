@@ -1,6 +1,7 @@
 ---
 title: Kernel Compilation
 created: 2013/09/22 22:31:31
+image: linux.jpg
 ---
 
 # Kernel Compilation

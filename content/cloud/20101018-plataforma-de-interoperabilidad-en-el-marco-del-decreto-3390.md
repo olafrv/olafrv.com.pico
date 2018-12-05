@@ -1,6 +1,6 @@
 ---
 title: Plataforma de Interoperabilidad en el Marco del Decreto 3390
-created: 2010/10/18 22:46:09
+created: 2010/10/18
 image: interop_gov.png
 ---
 

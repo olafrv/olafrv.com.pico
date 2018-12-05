@@ -1,30 +1,66 @@
 ---
 title: Random Ubuntu 12.04 hangs (freeze), hard reset needed
-created: 2013/05/03 22:16:31
+created: 2013/05/03
+image: ubuntu.png
 ---
 
 # Random Ubuntu 12.04 hangs (freeze), hard reset needed
 
-**MY PC** \- ASUS P67 Sabertooh Lastest BIOS Update (Available on May 5th, 2013) \- Intel Core i7 2600K \- 16 GB RAM **PROBLEM** \- Random Ubuntu 12.04 hangs (freeze) 32/64 bits (Kernel < 3.5.0-40). \- Hard reset needed. \- No problems on Windows 7 64-bits. **SOLUTIONS** There are two options, editing default kernel boot options in _/etc/default/grub_ and then execute: 
+**MY PC** 
+
+ASUS P67 Sabertooh Lastest BIOS Update (Available on May 5th, 2013) Intel Core i7 2600K 16 GB RAM 
+
+**PROBLEM**
+
+Random Ubuntu 12.04 hangs (freeze) 32/64 bits (Kernel < 3.5.0-40). \- Hard reset needed. \- No problems on Windows 7 64-bits. 
+
+**SOLUTION** 
+
+There are two options, editing default kernel boot options in _/etc/default/grub_ and then execute: 
     
-    
+```bash
     update-grub
     reboot
-    
+```
 
 **WORKAROUND #1** Upgrade to the Kernel 3.5.0-40 and disable only ACPI: 
     
-    
+```conf
     GRUB_CMDLINE_LINUX="acpi=off"
-    
+```    
 
-**PROS** \- Still up and counting (Since 2013-09-19). \- Multicore/Multithread APIC Support Enabled: ![MulticoreMultithread](https://www.olafrv.com/wordpress/wp-content/uploads/2013/05/MulticoreMultithread-300x200.png) **CONS** \- Need kernel upgrade. **WORKAROUND #2** If you have no luck or can't upgrade kernel in most of the times disabling both APIC and APIC timers works: 
+**PROS**
+
+Still up and counting (Since 2013-09-19). \- Multicore/Multithread APIC Support Enabled:
+
+![MulticoreMultithread](https://www.olafrv.com/wordpress/wp-content/uploads/2013/05/MulticoreMultithread-300x200.png)
+
+**CONS**
+
+Need kernel upgrade. 
+
+**WORKAROUND #2**
+
+If you have no luck or can't upgrade kernel in most of the times disabling both APIC and APIC timers works: 
     
-    
+```conf    
     GRUB_CMDLINE_LINUX="acpi=off noapic nolapic"
-    
+```
 
-**PROS** \- No kernel upgrade needed. \- Hangs/Freezes disappered. **CONS** \- No multicore/multithread monitoring nor IRQ balance by S.O, as shown below: ![System Monitor](https://www.olafrv.com/wordpress/wp-content/uploads/2013/05/Captura-de-pantalla-de-2013-05-03-221408-300x200.png) **REFERENCES** [Debugging IRQ Problems (Ubuntu)](https://help.ubuntu.com/community/DebuggingIRQProblems)
+**PROS** 
+
+* No kernel upgrade needed.
+* Hangs/Freezes disappered. 
+
+**CONS** 
+
+* No multicore/multithread monitoring nor IRQ balance by S.O, as shown below:
+
+![System Monitor](https://www.olafrv.com/wordpress/wp-content/uploads/2013/05/Captura-de-pantalla-de-2013-05-03-221408-300x200.png) 
+
+**REFERENCES**
+
+[Debugging IRQ Problems (Ubuntu)](https://help.ubuntu.com/community/DebuggingIRQProblems)
 
 > If you think you may be experiencing such a problem, try these steps in the following order: Boot the system with the noapic kernel parameter. This tells the kernel to not make use of any IOAPIC's that may be present in the system Boot the system with pci=routeirq. Do IRQ routing for all PCI devices. This is normally done in pci_enable-device(), and is a temporary workaround for broken drivers which don't call it. Boot the system with pci=noacpi. Do not use ACPI for IRQ routing or PCI scanning. Boot the system with acpi=off. Completely disable ACPI support. You may also want to try: Boot the system with 'irqpoll'. This may be a work around for an "irqXX: nobody cared . . ." error, which basically means the interrupt has not been handled by any driver. This boot option will make the kernel poll for interrupts, in order to try to work around this issue. However, this does not help diagnose the root cause, nor should it be a permanent fix. 
 

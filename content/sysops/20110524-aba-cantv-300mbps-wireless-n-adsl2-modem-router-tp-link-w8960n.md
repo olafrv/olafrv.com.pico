@@ -1,23 +1,58 @@
 ---
 title: Modem Router TP-LINK W8960N (300Mbps Wireless N ADSL2+) con ABA de CANTV
 created: 2011/05/24 00:06:31
+image: wimax.jpg
 ---
 
-# Modem Router TP-LINK W8960N (300Mbps Wireless N ADSL2+) con ABA de CANTV
+#### Modem Router TP-LINK W8960N (300Mbps Wireless N ADSL2+) con ABA de CANTV
 
-**Quick Setup - WAN Configurations (UPDATE 2011/Jul/17)** Para aquellos que desean configurar sus nuevos routers WiFi + ASDL en [Venezuela](https://maps.google.com/maps?hl=es-419&q=google+maps+venezuela&ie=UTF8&hq=&hnear=Venezuela&gl=ve&z=5) aquí les dejo la configuración del router [ TP-LINK W8960](https://www.tp-link.com/products/productDetails.asp?class=&pmodel=TD-W8960N) que utilizo para conectarme con el servicio [ABA](https://www.cantv.com.ve/seccion.asp?pid=1&sid=1377&id=1&und=1&cat=item_ig&item=item_2&item_name=Planes%20y%20Precios) de [CANTV](https://www.cantv.com.ve): **WAN Configurations**
+**Quick Setup - WAN Configurations (UPDATE 2011/Jul/17)**
+
+Para aquellos que desean configurar sus nuevos routers WiFi + ASDL en [Venezuela](https://maps.google.com/maps?hl=es-419&q=google+maps+venezuela&ie=UTF8&hq=&hnear=Venezuela&gl=ve&z=5) aquí les dejo la configuración del router [ TP-LINK W8960](https://www.tp-link.com/products/productDetails.asp?class=&pmodel=TD-W8960N) que utilizo para conectarme con el servicio [ABA](https://www.cantv.com.ve/seccion.asp?pid=1&sid=1377&id=1&und=1&cat=item_ig&item=item_2&item_name=Planes%20y%20Precios) de [CANTV](https://www.cantv.com.ve):
+
+**WAN Configurations**
 
 > Country: Other ISP: Other VPI: 0 VCI: 33 WAN Link Type: IPoE (IP over Ethernet) Encapsulation Mode: LLC/SNAP-BRIDGING WAN IP: Use DHCP DNS: Obtain Automatically
 
-**WAN Configurations (Screenshot)** Las configuraciones de la WAN mencionadas anteriormente mostradas en sus respectivas casillas. ![](https://www.olafrv.com/wp-content/uploads/2011/05/ABA-Cantv-TP-Link-W8960N-300x279.png) **Wireless - Advanced** **Nota:** En varias oportunidades al utilizar el modo (Mode) "bgn" las máquinas que funcionaba en modo "g" tenían problemas de conexión, especialmente aquellas con sistema operativo GNU/Linux. **Nota:** Reducir estos valores me ayudo a aumentar la tasa de transferencia y reducir la retransmisión de paquetes. Fragmentation Threshold: 1492 o 1500 (Reducir al tamaño de una MTU PPPoE WAN). RTS Threshold: 1493 o 1501 (Colocar +1 para notificar al fragmentar). DTIM Interval: 1 (No cambiar a menos que se presenten más fallas). Beacon Interval: 50 pero preferiblemente 100 (ms). El valor recomendado de la MTU dependiendo de la topología de red (https://support.microsoft.com/kb/314496): 
+**WAN Configurations (Screenshot)**
+
+Las configuraciones de la WAN mencionadas anteriormente mostradas en sus respectivas casillas. 
+
+![](https://www.olafrv.com/wp-content/uploads/2011/05/ABA-Cantv-TP-Link-W8960N-300x279.png) 
+
+**Wireless - Advanced** 
+
+**Nota:** En varias oportunidades al utilizar el modo (Mode) "bgn" las máquinas que funcionaba en modo "g" tenían problemas de conexión, especialmente aquellas con sistema operativo GNU/Linux.
+
+**Nota:** Reducir estos valores me ayudo a aumentar la tasa de transferencia y reducir la retransmisión de paquetes. Fragmentation Threshold: 1492 o 1500 (Reducir al tamaño de una MTU PPPoE WAN). RTS Threshold: 1493 o 1501 (Colocar +1 para notificar al fragmentar). DTIM Interval: 1 (No cambiar a menos que se presenten más fallas). Beacon Interval: 50 pero preferiblemente 100 (ms). El valor recomendado de la MTU dependiendo de la topología de red (https://support.microsoft.com/kb/314496): 
 
 > ** Network MTU (bytes)** \------------------------------- 16 Mbps Token Ring 17914 4 Mbps Token Ring 4464 FDDI 4352 Ethernet 1500 IEEE 802.3/802.2 1492 PPPoE (WAN Miniport) 1480 X.25 576
 
-> El** Beacon interval (Intervalo de baliza)** es el tiempo transcurrido entre transmisiones de balizas. La baliza es una señal enviada por el cliente inalámbrico o router para indicar a la red que aún está activo. El valor debe establecerse entre 1 y 1.000 milisegundos. El **RTS Threshold (Umbral RTS o de petición de envío)** es el tiempo que aguardará el punto de acceso antes de mandar una petición de envío (RTS) al cliente. Los mensajes RTS avisan al ordenador, red o servidor de que el cliente está intentando mandar datos y acceder con privilegios al ordenador o red durante la transmisión o recepción de los datos. Si un cliente experimenta dificultades al transmitir los datos a un ordenador, una red o un servidor, deberá disminuir el umbral. El **Fragmentation threshold (Umbral de fragmentación)** es el nivel máximo que alcanzará el punto de acceso al enviar la información en paquetes antes de que estos se fragmenten. Si le cuesta mandar información probablemente se deba al tráfico en la red y a la colisión de los datos transmitidos. Esto se puede solucionar dividiendo la información en fragmentos. Cuanto más bajo sea el umbral de fragmentación, menor será el paquete antes de que se divida en fragmentos. Si establece el máximo (2.346), la fragmentación quedará prácticamente deshabilitada. Modifique este nivel si es usuario avanzado. El** DTIM Interval (Intervalo DTIM)** es el tiempo que transcurre entre los envíos de mensajes DTIM a los clientes de la red. DTIM significa Delivery Traffic Indication Message (mensaje indicativo de tráfico de entrega) y se trata de un mensaje remitido a clientes de la red con funciones de ahorro de energía que les informa de que, para recibir cierta información, deben estar activos. Un número reducido significa que los clientes no podrán acceder al modo de ahorro de energía durante un plazo de tiempo demasiado prolongado. Si el número es elevado, podrán acceder al modo de ahorro de energía, pero tendrán que permanecer activos más tiempo pues se habrá acumulado una mayor cantidad de datos para enviar. El valor predeterminado del intervalo DTIM es 1.
+El **Beacon interval (Intervalo de baliza)** es el tiempo transcurrido entre transmisiones de balizas. La baliza es una señal enviada por el cliente inalámbrico o router para indicar a la red que aún está activo. El valor debe establecerse entre 1 y 1.000 milisegundos.
 
-Fuente: [Guía del usuario del Wireless MAXg Access Point (U.S. Robotics)](https://www.usr.com/support/5451/5451-es-ug/wireless.html). **Wireless - Advanced (Screenshot)** ![](https://www.olafrv.com/wp-content/uploads/2011/05/Wireless-Advanced-300x187.png) **Diagnostics (Screenshot)** Las pruebas (test) que fallan no son de importancia porque tengo acceso tanto a Internet como a la WLAN (Wireless LAN), es decir, el router trabaja sin problemas. La primera falla indica que estoy accediendo al SETUP del router a través de la WLAN y la segunda falla indica que CANTV bloquea este protocolo de diagnóstico. ![](https://www.olafrv.com/wp-content/uploads/2011/05/TP-Link-W8960N-Test-300x279.png) **Interferencia con otras redes o dispositivos** En mi caso, el teléfono inalámbrico (2.4Ghz) común y corriente estaba funcionando en el mismo canal del router Wifi tuve que cambiar el canal por el Nº 6 y el del teléfono por el Nº 34 (u otro). ![](https://www.olafrv.com/wp-content/uploads/2011/05/inSSIDer-300x187.jpg) Para detectar posibles interferencias se puede ver y comparar la intensidad de señal y otros valores con [inSSIDer](https://www.metageek.net/products/inssider/), también recomiendo lean el siguiente artículo [Whitepaper - CISCO - 20 mitos sobre la interferencia](https://www.olafrv.com/wp-content/uploads/2011/05/prod_white_paper0900aecd807395a9.pdf).
+El **RTS Threshold (Umbral RTS o de petición de envío)** es el tiempo que aguardará el punto de acceso antes de mandar una petición de envío (RTS) al cliente. Los mensajes RTS avisan al ordenador, red o servidor de que el cliente está intentando mandar datos y acceder con privilegios al ordenador o red durante la transmisión o recepción de los datos. Si un cliente experimenta dificultades al transmitir los datos a un ordenador, una red o un servidor, deberá disminuir el umbral. 
 
-## Comments
+El **Fragmentation threshold (Umbral de fragmentación)** es el nivel máximo que alcanzará el punto de acceso al enviar la información en paquetes antes de que estos se fragmenten. Si le cuesta mandar información probablemente se deba al tráfico en la red y a la colisión de los datos transmitidos. Esto se puede solucionar dividiendo la información en fragmentos. Cuanto más bajo sea el umbral de fragmentación, menor será el paquete antes de que se divida en fragmentos. Si establece el máximo (2.346), la fragmentación quedará prácticamente deshabilitada. Modifique este nivel si es usuario avanzado.
+
+El **DTIM Interval (Intervalo DTIM)** es el tiempo que transcurre entre los envíos de mensajes DTIM a los clientes de la red. DTIM significa Delivery Traffic Indication Message (mensaje indicativo de tráfico de entrega) y se trata de un mensaje remitido a clientes de la red con funciones de ahorro de energía que les informa de que, para recibir cierta información, deben estar activos. Un número reducido significa que los clientes no podrán acceder al modo de ahorro de energía durante un plazo de tiempo demasiado prolongado. Si el número es elevado, podrán acceder al modo de ahorro de energía, pero tendrán que permanecer activos más tiempo pues se habrá acumulado una mayor cantidad de datos para enviar. El valor predeterminado del intervalo DTIM es 1.
+
+Fuente: [Guía del usuario del Wireless MAXg Access Point (U.S. Robotics)](https://www.usr.com/support/5451/5451-es-ug/wireless.html).
+
+**Wireless - Advanced (Screenshot)** 
+
+![](https://www.olafrv.com/wp-content/uploads/2011/05/Wireless-Advanced-300x187.png) 
+
+**Diagnostics (Screenshot)** Las pruebas (test) que fallan no son de importancia porque tengo acceso tanto a Internet como a la WLAN (Wireless LAN), es decir, el router trabaja sin problemas. La primera falla indica que estoy accediendo al SETUP del router a través de la WLAN y la segunda falla indica que CANTV bloquea este protocolo de diagnóstico. 
+
+![](https://www.olafrv.com/wp-content/uploads/2011/05/TP-Link-W8960N-Test-300x279.png) 
+
+**Interferencia con otras redes o dispositivos** En mi caso, el teléfono inalámbrico (2.4Ghz) común y corriente estaba funcionando en el mismo canal del router Wifi tuve que cambiar el canal por el Nº 6 y el del teléfono por el Nº 34 (u otro). 
+
+![](https://www.olafrv.com/wp-content/uploads/2011/05/inSSIDer-300x187.jpg)
+
+ Para detectar posibles interferencias se puede ver y comparar la intensidad de señal y otros valores con [inSSIDer](https://www.metageek.net/products/inssider/), también recomiendo lean el siguiente artículo [Whitepaper - CISCO - 20 mitos sobre la interferencia](https://www.olafrv.com/wp-content/uploads/2011/05/prod_white_paper0900aecd807395a9.pdf).
+
+#### Comments
 
 **[Olaf Reitmaier Veracierta](#4859 "2011-06-02 13:24:55"):** Hola Sergio, La opción si aperece en mi router TP-LINK W8960N lo compre hace 2 meses por Amazon, ¿Que modelo tienes? ¿Qué versión de Firmware tienes?. Entiendo que tenía la siguiente instalación: PCs --- Cable UTP --- Netgear --- WiFi Brigde --- Netgear --- Cable UTP --- PCs Y ahora con el nuevo router TP-LINK dado que no se integra con el Netgear tienes lo siguiente: PCs --- Cable UTP --- TP-LINK --- Cable UTP --- Netgear --- Cable UTP --- PCs Debes revisar algunas cosas en el TP-LINK: \- Es probable que no te aparezca IPoE por la versión del firmware si tienes el mismo modelo de router que el mío. De lo contrario, podría ser que tu modelo no incluye ese protocolo o que no estás seleccionado el país y proveedor correcto. \- ¿Están funcionado ambos routers con la misma versión del protocolo 802.11?, es decir, b con b, g con g, n con n. Por el nombre imagino que el Netgear trabaja a g entonces vas a tener que hacer funcionar el TP-LINK en g. \- ¿Está activado el bridge con la MAC del otro router Netgear?. \- ¿Está activado el broadcasting del SSID de la red del router TP-LINK? Saludos.-
 

@@ -32,6 +32,7 @@ disable: # Disable Site Elements
   - contact
   #- about
   #- footer
+  - modals
 css: assets/override.css
 fonts:
   #- https://fonts.googleapis.com/css

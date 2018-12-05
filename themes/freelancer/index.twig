@@ -10,7 +10,7 @@
 	 {% if url_param('autoindex', 'boolean') %} 
    	 {% include "includes/autoindex.twig" %}
 	 {% elseif url_param('post', 'boolean') %} 
-		 {% include "wp.twig" %}
+		 {% include "includes/post.twig" %}
     {% else %}
     	 {% include "includes/header.twig" %}
    	 {% include "includes/portfolio.twig" %}
@@ -24,7 +24,8 @@
 
     {% if 'footer' not in pages.index.meta.disable %}{% include "includes/footer.twig" %}{% endif %}
 
-    {% include "includes/modals.twig" %}
+    <!-- Never used Modals, should check why is so slow? -->
+    {% if 'modals' not in pages.index.meta.disable %}{% include "includes/modals.twig" %}{% endif %}
 
     {% include "includes/javascript.twig" %}
 

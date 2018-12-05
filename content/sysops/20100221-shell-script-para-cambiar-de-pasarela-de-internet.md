@@ -1,6 +1,6 @@
 ---
 title: Shell Script para cambiar de pasarela de Internet
-created: 2010/02/21 05:22:36
+created: 2010/02/21
 image: linux.jpg
 ---
 

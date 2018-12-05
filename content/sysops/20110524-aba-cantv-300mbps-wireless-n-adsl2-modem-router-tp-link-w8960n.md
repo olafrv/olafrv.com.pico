@@ -1,6 +1,6 @@
 ---
 title: Modem Router TP-LINK W8960N (300Mbps Wireless N ADSL2+) con ABA de CANTV
-created: 2011/05/24 00:06:31
+created: 2011/05/24
 image: wimax.jpg
 ---
 

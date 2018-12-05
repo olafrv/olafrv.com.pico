@@ -1,6 +1,6 @@
 ---
 title: Installing Ubuntu 7.04 on Acer Aspire 3661 WLMi
-created: 2010/01/19 04:53:23
+created: 2010/01/19
 image: ubuntu.png
 ---
 

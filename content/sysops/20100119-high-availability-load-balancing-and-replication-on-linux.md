@@ -1,6 +1,6 @@
 ---
 title: High Availability, Load Balancing and Replication on Linux
-created: 2010/01/19 03:50:24
+created: 2010/01/19
 image: linux.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Manual de Tropicalización de Mozilla Thunderbird
-created: 2010/02/21 05:09:19
+created: 2010/02/21
 image: linux.jpg
 ---
 

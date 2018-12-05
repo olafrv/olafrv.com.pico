@@ -1,6 +1,6 @@
 ---
 title: Recuperar archivos borrados en un sistema de ficheros ext3
-created: 2010/03/01 20:57:48
+created: 2010/03/01
 image: linux.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Linux shell script to restart a Movilmax router when Internet is down
-created: 2010/01/19 04:35:41
+created: 2010/01/19
 image: linux.jpg
 ---
 

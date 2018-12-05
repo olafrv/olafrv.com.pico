@@ -1,6 +1,6 @@
 ---
 title: Compile linux-* kernel packages
-created: 2010/02/26 06:02:30
+created: 2010/02/26
 image: linux.jpg
 ---
 

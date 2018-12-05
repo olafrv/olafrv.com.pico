@@ -1,6 +1,6 @@
 ---
 title: Deshabilitar ALT+CTRL+BACKSPACE para reiniciar el X Display Manager
-created: 2010/02/28 23:54:00
+created: 2010/02/28
 image: linux.jpg
 ---
 

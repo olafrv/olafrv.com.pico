@@ -1,6 +1,6 @@
 ---
 title: Stonith Plugin Agent for VMWare VM VCenter SOAP Fencing (Unofficial)
-created: 2015/01/19 16:31:35
+created: 2015/01/19
 image: peacemaker.png
 ---
 

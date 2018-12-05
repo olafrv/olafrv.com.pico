@@ -1,6 +1,7 @@
 ---
 title: Securing Telnet using OpenSSL
-created: 2010/06/09 23:26:45
+created: 2010/06/09
+image: linux.jpg
 ---
 
 Telnet is the most ancient and insecure remote terminal connection protocol, but today there are many improved version such as: 

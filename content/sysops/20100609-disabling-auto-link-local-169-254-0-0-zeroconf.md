@@ -1,6 +1,7 @@
 ---
 title: Disabling auto link-local 169.254.0.0 zeroconf
-created: 2010/06/09 23:52:06
+created: 2010/06/09
+image: linux.jpg
 ---
 
 **History**

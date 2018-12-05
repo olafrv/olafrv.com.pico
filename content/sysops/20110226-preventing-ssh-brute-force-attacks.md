@@ -1,6 +1,6 @@
 ---
 title: Preventing SSH brute force attacks
-created: 2011/02/26 23:31:30
+created: 2011/02/26
 image: linux.jpg
 ---
 

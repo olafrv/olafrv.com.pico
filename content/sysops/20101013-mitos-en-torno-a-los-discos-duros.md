@@ -1,6 +1,7 @@
 ---
 title: Mitos en torno a los discos duros
-created: 2010/10/13 10:39:45
+created: 2010/10/13
+image: hdd.jpg
 ---
 
 **Fuente:** [Agalisa Informática - Mitos en torno a los discos duros](https://www.agalisa.es/modules.php?name=News&file=print&sid=607)  

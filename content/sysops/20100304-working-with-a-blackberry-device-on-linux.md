@@ -1,6 +1,6 @@
 ---
 title: Working with a Blackberry device on Linux
-created: 2010/03/04 22:58:16
+created: 2010/03/04
 image: linux.jpg
 ---
 

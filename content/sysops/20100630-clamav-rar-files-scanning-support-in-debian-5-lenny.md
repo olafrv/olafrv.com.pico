@@ -1,6 +1,7 @@
 ---
 title: Clamav RAR files scanning support in Debian 5 Lenny
-created: 2010/06/30 18:44:02
+created: 2010/06/30
+image: clamav.png
 ---
 
 After installing clamav in Debian 5 Lenny infected rar files are not detected??? It means, this command:

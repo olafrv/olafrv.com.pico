@@ -1,6 +1,6 @@
 ---
 title: Linux shell script to download Debian like repositories
-created: 2010/01/19 03:45:17
+created: 2010/01/19
 image: linux.jpg
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: QEMU script for virtual machine creation and emulation
-created: 2010/02/22 16:43:39
+created: 2010/02/22
 image: linux.jpg
 ---
 

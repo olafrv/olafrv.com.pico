@@ -1,6 +1,6 @@
 ---
 title: Modify CONTROL file in Debian Package
-created: 2010/02/21 06:23:04
+created: 2010/02/21
 image: linux.jpg
 ---
 

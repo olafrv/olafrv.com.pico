@@ -1,6 +1,6 @@
 ---
 title: Hamachi Debian Daemon following Debian Policy
-created: 2010/01/19 04:10:49
+created: 2010/01/19
 image: linux.jpg
 ---
 

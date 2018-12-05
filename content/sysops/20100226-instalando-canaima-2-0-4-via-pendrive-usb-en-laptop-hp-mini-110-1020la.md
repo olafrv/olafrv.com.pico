@@ -1,6 +1,6 @@
 ---
 title: Instalando Canaima 2.0.4 vía Pendrive USB en Laptop HP Mini 110 1020la
-created: 2010/02/26 06:03:19
+created: 2010/02/26
 image: linux.jpg
 ---
 

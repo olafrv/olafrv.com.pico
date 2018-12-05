@@ -1,6 +1,7 @@
 ---
 title: Debian GRUB 1 and 2 with password (UPDATED)
-created: 2010/08/19 11:52:36
+created: 2010/08/19
+image: grub.png
 ---
 
 In Debian Lenny (Stable) the GRUB 2 version is 1.96 and is still without password support. If you install a more recent version from Debian Squeeze (Testing) such as 1.97, which comes with password support. 

@@ -1,6 +1,6 @@
 ---
 title: Cómo REFORMATEAR (SOLO SI ES NECESARIO!!!) un pendrive de más de 32 GB
-created: 2010/12/10 01:45:42
+created: 2010/12/10
 image: linux.jpg
 ---
 

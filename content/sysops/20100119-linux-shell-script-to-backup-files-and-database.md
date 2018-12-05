@@ -1,6 +1,6 @@
 ---
 title: Linux shell script to backup files and databases
-created: 2010/01/19 05:17:36
+created: 2010/01/19
 image: linux.jpg
 ---
 

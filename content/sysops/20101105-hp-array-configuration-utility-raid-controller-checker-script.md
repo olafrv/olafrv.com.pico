@@ -1,6 +1,7 @@
 ---
 title: HP Array Configuration Utility RAID Controller Checker Script
-created: 2010/11/05 15:16:11
+created: 2010/11/05
+image: hp_smart_array.jpg
 ---
 
 ## Install the HP Managment Component Pack for Proliant

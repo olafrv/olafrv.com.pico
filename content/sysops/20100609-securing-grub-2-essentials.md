@@ -1,6 +1,7 @@
 ---
 title: Securing GRUB Essentials
-created: 2010/06/09 16:48:03
+created: 2010/06/09
+image: grub.png
 ---
 
 **What is GRUB?** 

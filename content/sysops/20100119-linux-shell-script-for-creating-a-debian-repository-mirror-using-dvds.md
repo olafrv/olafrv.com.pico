@@ -1,6 +1,6 @@
 ---
 title: Linux shell script for creating a Debian repository (mirror) using DVDs
-created: 2010/01/19 04:46:07
+created: 2010/01/19
 image: linux.jpg
 ---
 

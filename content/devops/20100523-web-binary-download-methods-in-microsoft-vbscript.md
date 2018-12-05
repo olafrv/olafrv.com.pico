@@ -8,11 +8,13 @@ image: basic.jpg
 
 Taken on May 23th, 2010 from <https://www.ericphelps.com/scripting/samples/BinaryDownload/index.htm> by Eric. 
 
-It works perfect, just download your file with: 
+It works perfect, just download your file calling: 
 
-**SaveWebBinary "https://server/file1.ext1", "C:/file2.ext2"** 
+```vb
+SaveWebBinary "https://server/file1.ext1", "C:/file2.ext2"
+```
 
-Using this function: 
+Here is the function declaration: 
     
 ```vb
     Function SaveWebBinary(strUrl, strFile) 'As Boolean

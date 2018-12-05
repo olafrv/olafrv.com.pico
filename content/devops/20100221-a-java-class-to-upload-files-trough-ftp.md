@@ -6,7 +6,7 @@ image: java.png
 
 # A Java Class to upload files trough FTP
 
-[Download Ftp.java](https://www.olafrv.com/wp-content/uploads/2010/02/Ftp.java_.zip)
+Download the class [Ftp.java](https://www.olafrv.com/wp-content/uploads/2010/02/Ftp.java_.zip)
 
 ```java
     /**

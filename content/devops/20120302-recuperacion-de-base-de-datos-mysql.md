@@ -4,9 +4,9 @@ created: 2012/03/02 00:17:32
 image: mysql.jpg
 ---
 
-# Recuperación de base de datos MySQL
+## Recuperación de base de datos MySQL
 
-## I.- MOTORES DE BASE DE DATOS
+### I.- MOTORES DE BASE DE DATOS
 
 Los dos (2) motores de base de datos MySQL más usados para almacenar datos en tablas son MyISAM e InnoDB. El primero MyISAM, a diferencia de InnoDB no permite almacenamiento transaccional (conforme a ACID) con capacidades de commit (confirmación), rollback (cancelación) y recuperación de fallas, por eso más estable que InnoDB que es mucho más sensible a corrupciones de datos. Los motores de base de datos activos pueden visualizarse con el comando: 
     
@@ -14,13 +14,13 @@ Los dos (2) motores de base de datos MySQL más usados para almacenar datos en t
     mysql> show engines;
 ```
 
-## II.- ARCHIVOS BASES DE DATOS
+### II.- ARCHIVOS BASES DE DATOS
 
 En su mayoría los archivos de bases de datos se almacenan en archivos con el nombre de la tabla en una subcarpeta con el nombre de la base datos. Sin embargo, dependiendo del motor de base de datos esto varia como se describe a continuación: Por cada tabla tipo MyISAM existe un archivo .frm con su estructura, un archivo de datos .MYD (MYData) y un archivo de índice .MYI (MYIndex). El motor de almacenamiento InnoDB gestiona en cada instancia del servidor de MySQL archivos de datos de espacios de tablas (tablespaces) y archivos de registro (log). Para cada tabla tipo InnoDB existe un archivo .frm registrado en el diccionario de datos de InnoDB (no en el global de la instancia de MySQL), por esta razón no se pueden mover tablas entre bases de datos sencillamente moviendo los ficheros .frm. Adicionalmente, a menos que la configuración por defecto de InnoDB sea modificada, MySQL crea un archivo de datos (autoextensible) llamado ibdata1 y dos archivos de registro (log) llamados ib_logfile0 y ib_logfile1 que son compartidos por todas las tablas InnoDB de una instancia MySQL. Es posible agregar la opción innodb_file_per_table en la configuración para indicar a MySQL que la información de las tablas InnoDB se almacenen en su propio archivo de datos .IBD. 
 
-## III.- REPARACIÓN DE BASES DE DATOS
+### III.- REPARACIÓN DE BASES DE DATOS
 
-### III.A.- SERVIDOR MYSQL EN LÍNEA
+#### III.A.- SERVIDOR MYSQL EN LÍNEA
 
 Antes de realizar cualquier labor de mantenimiento se deben detener los sistemas que se conectan al servidor de base de datos, o bien, reportar el servidor caído denegando las conexiones. La manera más fácil de lograrlo es bloqueando las conexiones IP de la red local (Interfaz eth0) en el servidor MySQL utilizando iptables, dependiendo del número de instancias (3306, 3307, 3308) y del número de interfaces los comandos serían los siguientes: 
     
@@ -54,7 +54,7 @@ Si una base de datos no pudo ser reparada se debe eliminar y restaurar partiendo
 
 Si no tiene un respaldo entonces la información se habrá perdido definitivamente. 
 
-### III.B.- SERVIDOR DE MYSQL DETENIDO
+#### III.B.- SERVIDOR DE MYSQL DETENIDO
 
 Si el servidor MySQL no se está ejecutando debemos determinar la causa inspeccionando el log de error del servidor. Si no está configurado debe activarlo colocando en el archivo de configuración my.cf:
 

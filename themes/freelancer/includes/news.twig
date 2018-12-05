@@ -7,16 +7,10 @@
                     <hr class="star-primary">
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-4 text-center">
-<a class="twitter-timeline"  href="https://twitter.com/daycohost"  data-widget-id="288842835942326273">Tweets by @olafrv</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-					 </div>
-                <div class="col-lg-4 text-center">
-<a class="twitter-timeline"  href="https://twitter.com/olafrv"  data-widget-id="288842835942326273">Tweets by @olafrv</a>
-    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                </div>
-                <div class="col-lg-4 text-center">
+
+			<div class="col-lg-4 text-center">
+
+<!-- Github -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 $.get('https://api.github.com/users/olafrv/repos?sort=pushed&direction=desc', function(data){
@@ -32,7 +26,9 @@ $.get('https://api.github.com/users/olafrv/repos?sort=pushed&direction=desc', fu
 	});
 });
 </script>
-	<span><img height="75px" src="{{ base_url ~ '/' }}assets/github.png"></span>
+	<span>
+		<img height="75px" src="{{ base_url ~ '/' }}assets/github.png">
+	</span>
 	<table class="table table-striped">
 		<thead class="thead-dark">
 			<tr>
@@ -43,7 +39,21 @@ $.get('https://api.github.com/users/olafrv/repos?sort=pushed&direction=desc', fu
 		</thead>
 		<tbody id="githubrepos"></tbody>
    </table>
+   <!-- Github -->
 					</div>	
+
+            <div class="col-lg-4 text-center">
+				<a class="twitter-timeline"  href="https://twitter.com/olafrv"  data-widget-id="288842835942326273">Tweets by @olafrv</a>
+    			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+        	</div>
+
+        	<div class="row">
+                <div class="col-lg-4 text-center">
+				<a class="twitter-timeline"  href="https://twitter.com/daycohost"  data-widget-id="288842835942326273">Tweets by @olafrv</a>
+    			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			</div>
+
+
             </div>
         </div>
     </section>

@@ -23,7 +23,7 @@
                                 <div class="text-center">
                                     <img src="{{ base_url ~ '/assets/' ~ page.meta.image }}" class="rounded" alt="">
                                 </div>
-                                <h5 class="text-center">{{ i ~ '.- ' ~ page.title }}</h5>
+                                <h5 class="text-center">{{ page.meta.title }} <br>[{{ page.meta.created }}]</h5>
                             </a>
                         </div>
                     {% if i % 3 == 0 %}

@@ -6,7 +6,7 @@ image: java.png
 
 # MD5, SHA-1 hash sums in Java 2
 
-[Download HashSum.java](https://www.olafrv.com/wp-content/uploads/2010/02/HashSum.java_.zip)
+Download the class [HashSum.java](https://www.olafrv.com/wp-content/uploads/2010/02/HashSum.java_.zip)
 
 ```java
     /**

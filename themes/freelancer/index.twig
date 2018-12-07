@@ -4,29 +4,26 @@
   {% include "includes/head.twig" %}
 
   <body id="page-top" class="index">
-
     {% include "includes/navbar.twig" %}
 
-	 {% if url_param('autoindex', 'boolean') %} 
-   	 {% include "includes/autoindex.twig" %}
-	 {% elseif url_param('post', 'boolean') %} 
-		 {% include "includes/post.twig" %}
-    {% else %}
-    	 {% include "includes/header.twig" %}
-   	 {% include "includes/portfolio.twig" %}
-	 {% endif %}
+    <!-- Page Content Section -->
 
-    {% if 'about' not in pages.index.meta.disable %}{% include "includes/about.twig" %}{% endif %}
+    {% if url_param('autoindex', 'boolean') %} 
+   	  {% include "includes/autoindex.twig" %}
+	  {% elseif url_param('post', 'boolean') %} 
+		  {% include "includes/post.twig" %}
+    {% else %}
+     	{% include "includes/header.twig" %}
+   	  {% include "includes/portfolio.twig" %}
+    {% endif %}
+
+    <!-- Fixed Sections -->
 
     {% if 'news' not in pages.index.meta.disable %}{% include "includes/news.twig" %}{% endif %}
-
+    {% if 'about' not in pages.index.meta.disable %}{% include "includes/about.twig" %}{% endif %}
     {% if 'contact' not in pages.index.meta.disable %}{% include "includes/contact.twig" %}{% endif %}
-
     {% if 'footer' not in pages.index.meta.disable %}{% include "includes/footer.twig" %}{% endif %}
-
-    <!-- Never used Modals, should check why is so slow? -->
     {% if 'modals' not in pages.index.meta.disable %}{% include "includes/modals.twig" %}{% endif %}
-
     {% include "includes/javascript.twig" %}
 
   </body>

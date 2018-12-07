@@ -20,15 +20,21 @@
                 <li class="page-scroll">
                     <a href="{{ base_url }}">Home</a>
                 </li>
+                {% if 'portfolio' not in pages.index.meta.disable %}
                 <li class="page-scroll">
                     <a href="{{ base_url ~ '#portfolio' }}">Portfolio</a>
                 </li>
+                {% endif %}
+                {% if 'code' not in pages.index.meta.disable %}
                 <li class="page-scroll">
-                    <a href="{{ base_url ~ '#news' }}">Code</a>
+                    <a href="{{ pages.index.meta.code }}">Code</a>
                 </li>
+                {% endif %}
+                {% if 'news' not in pages.index.meta.disable %}
                 <li class="page-scroll">
                     <a href="{{ base_url ~ '#news' }}">News</a>
                 </li>
+                {% endif %}
                 {% if 'about' not in pages.index.meta.disable %}
                     <li class="page-scroll">
                         <a href="{{ base_url ~ '#about' }}">About</a>

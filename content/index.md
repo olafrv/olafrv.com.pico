@@ -8,6 +8,7 @@ about_text: About # About Heading
 about_1: <table><tr><td><a href="/pico/assets/events/bi.png"><img src="/pico/assets/events/bi.png" width="100%"></a></td></tr></table><br><br><b>Chief Solution Architect (CSA)</b> working at <a target="_blank" href="https://www.daycohost.com" class="link-w-s">Daycohost</a> and freelancer developer<br><br>Follow me on my social networks bellow, or check my <a target="_blank" href="https://www.linkedin.com/in/olafrv/" class="link-w-s">Linkedin</a> profile. 
 about_2: <table><tr><td><a href="/pico/assets/events/tiii.jpg"><img src="/pico/assets/events/tiii.jpg" width="100%"></a></td></tr></table><br><br>Computer Engineer (B.S.) graduated from <a target="_blank" href="http://www.usb.ve" class="link-w-s">Simon Bolivar University</a> in 2005.<br><br>Always improving my <b>curriculum vitae (<a href="?cv/en" class="link-w-s">English</a>, <a href="?cv/es" class="link-w-s">Espa&ntilde;ol</a>)</b> with new experiences. 
 about_3: <table><tr><td><a href="/pico/assets/events/tiii_rlx.jpg"><img src="/pico/assets/events/tiii_rlx.jpg" width="100%"></a></td><tr></table><br><br>Passionate about <a target="_blank" href="https://opensource.org" class="link-w-s">open source</a> and hybrid IT solutions design and development. <br><br> Always saying: <i>"You don't know where your shadow will fall, Somebody."</i>
+code: https://github.com/olafrv
 address: # Address Text
   title: Location
   street: Av. Este 3, Urb. La Candelaria

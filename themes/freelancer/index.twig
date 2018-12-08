@@ -7,7 +7,6 @@
     {% include "includes/navbar.twig" %}
 
     <!-- Page Content Section -->
-
     {% if url_param('autoindex', 'boolean') %} 
    	  {% include "includes/autoindex.twig" %}
 	  {% elseif url_param('post', 'boolean') %} 
@@ -18,7 +17,6 @@
     {% endif %}
 
     <!-- Fixed Sections -->
-
     {% if 'news' not in pages.index.meta.disable %}{% include "includes/news.twig" %}{% endif %}
     {% if 'about' not in pages.index.meta.disable %}{% include "includes/about.twig" %}{% endif %}
     {% if 'contact' not in pages.index.meta.disable %}{% include "includes/contact.twig" %}{% endif %}

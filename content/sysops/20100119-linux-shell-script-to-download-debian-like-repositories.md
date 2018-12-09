@@ -5,4 +5,4 @@ image: linux.jpg
 ---
 
 
-I think this script will be useful for those who are dealing with mirroring Debian like distros. [Click here to download the script](https://olafrv.com/wordpress/wp-content/uploads/2010/01/repositorios.sh.tar.gz)
+I think this script will be useful for those who are dealing with mirroring Debian like distros. [Click here to download the script](https://olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/01/repositorios.sh.tar.gz)

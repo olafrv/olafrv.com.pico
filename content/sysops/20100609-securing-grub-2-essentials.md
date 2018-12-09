@@ -8,7 +8,7 @@ image: grub.png
 
 GRUB stands for GRand Unifier Bootloader, to get it on your system you must install package grub or grub2, GRUB is the replacement for largely used but unscalable LILO (LInux LOader) and alternative for SILO (Solaris Improved Bootloader).  
 
-![](https://www.olafrv.com/wp-content/uploads/2010/06/GRUB_screenshot-300x166.png) 
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/06/GRUB_screenshot-300x166.png) 
 
 **GRUB Boot Menu** 
 

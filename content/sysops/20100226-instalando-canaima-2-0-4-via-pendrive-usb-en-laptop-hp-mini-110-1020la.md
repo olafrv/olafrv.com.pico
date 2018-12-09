@@ -4,7 +4,7 @@ created: 2010/02/26
 image: linux.jpg
 ---
 
-![](https://blog.olafrv.com/wp-content/uploads/2010/02/IMG00159-20100225-0003-300x225.jpg) 
+![](https://blog.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/IMG00159-20100225-0003-300x225.jpg) 
 
 ## REQUERIMIENTOS
 
@@ -76,8 +76,8 @@ Bootear con el pendrive e instalar canaima en el espacio libre.
 
 Pueden seguir este procedimiento: [Haciendo funcionar Broadcom 4312 en GNU/Linux](https://blog.0x29.com.ve/?p=118), igual describo aquí como funcionó en mi caso: Descargar el controlador aquí: <https://www.broadcom.com/support/802.11/linux_sta.php> o desde aquí mismo: 
 
-  * [hybrid-portsrc-x86_32-v5.60.48.36.tar.gz](https://www.olafrv.com/wp-content/uploads/2010/02/hybrid-portsrc-x86_32-v5.60.48.36.tar.gz)
-  * [hybrid-portsrc-x86_64-v5.60.48.36](https://www.olafrv.com/wp-content/uploads/2010/02/hybrid-portsrc-x86_64-v5.60.48.36.tar.gz)
+  * [hybrid-portsrc-x86_32-v5.60.48.36.tar.gz](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/hybrid-portsrc-x86_32-v5.60.48.36.tar.gz)
+  * [hybrid-portsrc-x86_64-v5.60.48.36](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/hybrid-portsrc-x86_64-v5.60.48.36.tar.gz)
 
 Luego, 
     
@@ -103,7 +103,7 @@ Añadir las siguientes líneas a /etc/modules
 Descargar el controlador desde aquí: 
 
   * <https://www.jfwhome.com/wp-content/uploads/2009/08/atheros-wired-driver-1005ha-linux.zip>
-  * <https://www.olafrv.com/wp-content/uploads/2010/02/atheros-wired-driver-1005ha-linux.zip>
+  * <https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/atheros-wired-driver-1005ha-linux.zip>
 
 Luego, 
     

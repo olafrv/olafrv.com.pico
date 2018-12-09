@@ -16,7 +16,7 @@ Para aquellos que desean configurar sus nuevos routers WiFi + ASDL en [Venezuela
 
 Las configuraciones de la WAN mencionadas anteriormente mostradas en sus respectivas casillas. 
 
-![](https://www.olafrv.com/wp-content/uploads/2011/05/ABA-Cantv-TP-Link-W8960N-300x279.png) 
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2011/05/ABA-Cantv-TP-Link-W8960N-300x279.png) 
 
 **Wireless - Advanced** 
 
@@ -38,17 +38,17 @@ Fuente: [Guía del usuario del Wireless MAXg Access Point (U.S. Robotics)](https
 
 **Wireless - Advanced (Screenshot)** 
 
-![](https://www.olafrv.com/wp-content/uploads/2011/05/Wireless-Advanced-300x187.png) 
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2011/05/Wireless-Advanced-300x187.png) 
 
 **Diagnostics (Screenshot)** Las pruebas (test) que fallan no son de importancia porque tengo acceso tanto a Internet como a la WLAN (Wireless LAN), es decir, el router trabaja sin problemas. La primera falla indica que estoy accediendo al SETUP del router a través de la WLAN y la segunda falla indica que CANTV bloquea este protocolo de diagnóstico. 
 
-![](https://www.olafrv.com/wp-content/uploads/2011/05/TP-Link-W8960N-Test-300x279.png) 
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2011/05/TP-Link-W8960N-Test-300x279.png) 
 
 **Interferencia con otras redes o dispositivos** En mi caso, el teléfono inalámbrico (2.4Ghz) común y corriente estaba funcionando en el mismo canal del router Wifi tuve que cambiar el canal por el Nº 6 y el del teléfono por el Nº 34 (u otro). 
 
-![](https://www.olafrv.com/wp-content/uploads/2011/05/inSSIDer-300x187.jpg)
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2011/05/inSSIDer-300x187.jpg)
 
- Para detectar posibles interferencias se puede ver y comparar la intensidad de señal y otros valores con [inSSIDer](https://www.metageek.net/products/inssider/), también recomiendo lean el siguiente artículo [Whitepaper - CISCO - 20 mitos sobre la interferencia](https://www.olafrv.com/wp-content/uploads/2011/05/prod_white_paper0900aecd807395a9.pdf).
+ Para detectar posibles interferencias se puede ver y comparar la intensidad de señal y otros valores con [inSSIDer](https://www.metageek.net/products/inssider/), también recomiendo lean el siguiente artículo [Whitepaper - CISCO - 20 mitos sobre la interferencia](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2011/05/prod_white_paper0900aecd807395a9.pdf).
 
 #### Comments
 

@@ -4,7 +4,7 @@ created: 2010/02/21
 image: java.png
 ---
 
-Download the class [Ftp.java](https://www.olafrv.com/wp-content/uploads/2010/02/Ftp.java_.zip)
+Download the class [Ftp.java](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/Ftp.java_.zip)
 
 ```java
     /**

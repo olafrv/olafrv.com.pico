@@ -4,7 +4,7 @@ created: 2010/01/19
 image: java.png
 ---
 
-Download source code here: [Blowfish.tar.gz](https://www.olafrv.com/wordpress/wp-content/uploads/2010/01/Blowfish.tar.gz)
+Download source code here: [Blowfish.tar.gz](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/01/Blowfish.tar.gz)
 
 An implementation on Blowfish cipher algorithm in Java, based on:
 

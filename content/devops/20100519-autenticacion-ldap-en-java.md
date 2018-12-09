@@ -4,7 +4,7 @@ created: 2010/05/19
 image: java.png
 ---
 
-[*** Click Here to Download the JAVA code ***](https://www.olafrv.com/wp-content/uploads/2010/05/test.zip)
+[*** Click Here to Download the JAVA code ***](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/05/test.zip)
 
 ```java
     /***

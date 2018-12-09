@@ -9,4 +9,4 @@ This class can manipulate query strings used in HTTP requests that are used to p
 Download source code from:
 
 * https://www.phpclasses.org/browse/package/2378.html
-* https://www.olafrv.com/wp-content/uploads/2010/02/querystring-2008-02-26.tar.gz
+* https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/querystring-2008-02-26.tar.gz

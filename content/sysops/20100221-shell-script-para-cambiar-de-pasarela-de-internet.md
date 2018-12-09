@@ -6,7 +6,7 @@ image: linux.jpg
 
 # Problema
 
-Cómo cambiar automáticamente de puerta de enlace (pasarela) sin tener que reconfigurar cada estación de trabajo en una red local (LAN) con dos accesos a Internet. ![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall-Switch-300x166.jpg) 
+Cómo cambiar automáticamente de puerta de enlace (pasarela) sin tener que reconfigurar cada estación de trabajo en una red local (LAN) con dos accesos a Internet. ![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/Firewall-Switch-300x166.jpg) 
 
 # Solución 
 

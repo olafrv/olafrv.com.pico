@@ -4,15 +4,15 @@ created: 2010/11/25
 image: pendrive.jpg
 ---
 
-![](https://www.olafrv.com/wp-content/uploads/2010/11/black-264x300.jpg) 
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/11/black-264x300.jpg) 
 
 Vínculos interesantes: 
 
   * [Pendrive FALSOS en YouTube](https://www.youtube.com/results?search_query=fake+pendrive+128+gb&aq=f)
   * [Pendrives FALSOS en Google](https://www.google.co.ve/search?hl=es&q=fake+pendrive+128gb&aq=f&aqi=&aql=&oq=&gs_rfai=)
   * [¿Cómo recuperar un pendrive falso?](https://new.taringa.net/posts/downloads/5607970/Recupera-Tu-Pendrive-Falso-Con-Gparted.html)
-  * [Programa "Checkcap" para verificar la capacidad real de un pendrive.](https://blog.olafrv.com/wp-content/uploads/2010/11/checkcap.zip)
-  * [Otro programa "h2testw_1.4" para verificar la capacidad real de un pendrive.](https://blog.olafrv.com/wp-content/uploads/2010/11/h2testw_1.4.zip)
+  * [Programa "Checkcap" para verificar la capacidad real de un pendrive.](https://blog.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/11/checkcap.zip)
+  * [Otro programa "h2testw_1.4" para verificar la capacidad real de un pendrive.](https://blog.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/11/h2testw_1.4.zip)
   * [Página de Verificación de Memoria / Memory Verification Page](https://www.kingston.com/latam/verify/default.asp)
 
 

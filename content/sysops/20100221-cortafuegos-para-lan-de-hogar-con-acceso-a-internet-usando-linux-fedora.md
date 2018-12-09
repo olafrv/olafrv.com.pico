@@ -6,7 +6,7 @@ image: linux.jpg
 
 **Instalación de Hardware**
 
-![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall_html_m588681cb-300x190.png)
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/Firewall_html_m588681cb-300x190.png)
 
 **Instalación de Software**
 
@@ -26,18 +26,18 @@ Se deben instalar en el siguiente orden: 1,4,3,2
   * Click en el boton derecho de la carpeta Firewall, teniendo en cuenta que el software que se va a utilizar el iptables y el sistema operativo (SO) es Linux 2.4/2.6.
   * Configure una interfaz con la direccion (eth1) con dirección interna ip protegida por el firewall 192.168.0.1/255.255.255.0, la cual, será la interfaz de administración (managment) y la otra con dirección ip dinámica como tarjeta externa (external insecure interface).
   * Añada un red (Networks) con la dirección 192.168.0.0/255.255.255.0 y llamela LAN de Casa.
-  * Añada una dirección (Address) con la dirección﻿ 127.0.0.1. Deberá verse en el panel de la izquierda algo a la figura que se muestra a continuación:![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall_html_504c9af3-180x300.jpg)
+  * Añada una dirección (Address) con la dirección﻿ 127.0.0.1. Deberá verse en el panel de la izquierda algo a la figura que se muestra a continuación:![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/Firewall_html_504c9af3-180x300.jpg)
   * Bien, ahora podemos configurar las reglas de bloqueo, primero daremos la política general de comunicación del cortafuegos hacia si mismo y hacia las otras máquinas de la red local (LAN), mientras que cualquier otro tráfico estará prohibido.
-![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall_html_m803fda3-300x83.jpg)
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/Firewall_html_m803fda3-300x83.jpg)
 
   * Permitiremos la salida hacia la WAN (Internet), entrada solo de servicios administrativos tales como SSH y VNC (Opcionales):
-![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall_html_m2dc8e153-300x101.jpg)
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/Firewall_html_m2dc8e153-300x101.jpg)
 
   * Permitiremos toda la comunicación interna:
-![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall_html_m1f1f75-300x93.jpg)
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/Firewall_html_m1f1f75-300x93.jpg)
 
   * Finalmente, crearemos una traducción de redes o NAT (Network Address Translation), desde la interna hacia la externa, así las máquinas internas saldrán al exterior con una sola dirección ip pública. También haremos que VNC que corre solo en la interfaz local eth1 pueda ser accedido desde Internet redireccionándolo a dicha interfaz.
-![](https://www.olafrv.com/wp-content/uploads/2010/02/Firewall_html_6e680287.0-300x57.jpg)
+![](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/Firewall_html_6e680287.0-300x57.jpg)
 
   * Puede **omitir la especificación de los parámetros de NAT**, configurando las interfaces para que realicen un reenvío (forward), colocando al comienzo del archivo /root/firewall/firewall.sh la siguiente línea: echo 1 > /proc/sys/net/ipv4/ip_foward
   * Para iniciar la protección con el firewall basta con ejecutar el comando $ . /root/firewall/firewall.sh

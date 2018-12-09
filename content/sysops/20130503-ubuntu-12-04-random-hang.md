@@ -31,7 +31,7 @@ There are two options, editing default kernel boot options in _/etc/default/grub
 
 Still up and counting (Since 2013-09-19). \- Multicore/Multithread APIC Support Enabled:
 
-![MulticoreMultithread](https://www.olafrv.com/wordpress/wp-content/uploads/2013/05/MulticoreMultithread-300x200.png)
+![MulticoreMultithread](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2013/05/MulticoreMultithread-300x200.png)
 
 **CONS**
 
@@ -54,7 +54,7 @@ If you have no luck or can't upgrade kernel in most of the times disabling both 
 
 * No multicore/multithread monitoring nor IRQ balance by S.O, as shown below:
 
-![System Monitor](https://www.olafrv.com/wordpress/wp-content/uploads/2013/05/Captura-de-pantalla-de-2013-05-03-221408-300x200.png) 
+![System Monitor](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2013/05/Captura-de-pantalla-de-2013-05-03-221408-300x200.png) 
 
 **REFERENCES**
 

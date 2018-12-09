@@ -4,7 +4,7 @@ created: 2010/02/22
 image: linux.jpg
 ---
 
-[[Download qemu.sh here]](https://www.olafrv.com/wp-content/uploads/2010/02/qemu.sh.txt)
+[[Download qemu.sh here]](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/qemu.sh.txt)
     
 ```bash
     #!/bin/sh

@@ -4,11 +4,11 @@ created: 2010/12/10
 image: linux.jpg
 ---
 
-> ![](https://blog.olafrv.com/wp-content/uploads/2010/11/dialog_warning.png)
+> ![](https://blog.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/11/dialog_warning.png)
 
 **FORMATEAR UN PENDRIVE O CUALQUIER DISPOSITIVO DE BLOQUES DE FORMA INCORRECTA O SIN CONOCIMIENTO PUEDE LLEVAR A DEJARLO EN UN ESTADO INUTILIZABLE HASTA QUE SEA FORMATEADO CORRECTAMENTE POR PERSONAL TÉCNICO. HAGA RESPALDO DE SU INFORMACIÓN PERSONAL CONTENIDA EN EL DISPOSITIVO!!!**
 
-A través de Windows XP o Vista no es recomendable realizar el procedimiento sin utilizar la utilidad **fat32format** de [RidgeCorp Consultants, Ltd.](https://www.ridgecrop.demon.co.uk/index.htm), la cual, permite eliminar la restricción de formatear disco mayores a 32GB con el formato FAT 32 aumentando el tamaño de bloque. Esto es necesario las limitaciones expresadas por el propio Microsoft aquí: [https://support.microsoft.com/default.aspx?scid=KB;EN-US;Q314463&](https://support.microsoft.com/default.aspx?scid=KB;EN-US;Q314463&) y la poca compatibilidad con el futuro formato propietario exFAT (precursos de FAT64). [Descargar fat32format (guiformat.exe)](https://blog.olafrv.com/wp-content/uploads/2010/11/guiformat.exe) ![](https://blog.olafrv.com/wp-content/uploads/2010/11/guiformat-243x300.png)   
+A través de Windows XP o Vista no es recomendable realizar el procedimiento sin utilizar la utilidad **fat32format** de [RidgeCorp Consultants, Ltd.](https://www.ridgecrop.demon.co.uk/index.htm), la cual, permite eliminar la restricción de formatear disco mayores a 32GB con el formato FAT 32 aumentando el tamaño de bloque. Esto es necesario las limitaciones expresadas por el propio Microsoft aquí: [https://support.microsoft.com/default.aspx?scid=KB;EN-US;Q314463&](https://support.microsoft.com/default.aspx?scid=KB;EN-US;Q314463&) y la poca compatibilidad con el futuro formato propietario exFAT (precursos de FAT64). [Descargar fat32format (guiformat.exe)](https://blog.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/11/guiformat.exe) ![](https://blog.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/11/guiformat-243x300.png)   
 
 
 **El Nuevo Formato exFAT para memorias flash mayores a 32 GB** 

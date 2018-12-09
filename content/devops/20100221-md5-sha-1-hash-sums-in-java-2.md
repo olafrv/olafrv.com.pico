@@ -4,7 +4,7 @@ created: 2010/02/21
 image: java.png
 ---
 
-Download the class [HashSum.java](https://www.olafrv.com/wp-content/uploads/2010/02/HashSum.java_.zip)
+Download the class [HashSum.java](https://www.olafrv.com/pico/assets/wordpress/wp-content/uploads/2010/02/HashSum.java_.zip)
 
 ```java
     /**

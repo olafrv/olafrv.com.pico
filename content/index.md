@@ -5,8 +5,8 @@ description_1: Hybrid IT Solution Architect &amp;<br> Full Stack Software Develo
 description_2: +200 organizations with IT projects & solutions delivered over +15 years
 news_text: News # News Heading
 about_text: About # About Heading
-about_1: <table><tr><td><a href="/pico/assets/olaf-reitmaier-cv-2018.pdf"><img src="/pico/assets/cv-thumbnail.png" width="100%"></a></td></tr></table>
-about_2: <table><tr><td><a href="/pico/assets/events/tiii.jpg"><img src="/pico/assets/events/tiii.jpg" width="100%"></a></td></tr></table><h5><br><br><b>Chief Solution Architect (CSA)</b> working at <a target="_blank" href="https://www.daycohost.com" class="link-w-s">Daycohost</a>.<br><br>Always improving my <a href="/pico/assets/olaf-reitmaier-cv-2018.pdf" target="_blank" class="link-w-s">curriculum vitae</a> with new experiences.</h5>
+about_1: <h5><table><tr><td><a href="/pico/assets/events/tiii.jpg"><img src="/pico/assets/events/tiii.jpg" width="100%"></a></td></tr></table><br><br>Chief Solution Architect (CSA) working at <a target="_blank" href="https://www.daycohost.com" class="link-w-s">Daycohost</a>.</h5>
+about_2: <table><tr><td><a href="/pico/assets/olaf-reitmaier-cv-2018.pdf"><img src="/pico/assets/cv-thumbnail.png" width="100%"></a></td></tr></table>
 about_3: <table><tr><td><a href="/pico/assets/events/tiii_rlx.jpg"><img src="/pico/assets/events/tiii_rlx.jpg" width="100%"></a></td><tr></table><h5><br><br>Passionate about <a target="_blank" href="https://opensource.org" class="link-w-s">open source</a> and hybrid IT solutions.</h5>
 code: https://github.com/olafrv
 address: # Address Text

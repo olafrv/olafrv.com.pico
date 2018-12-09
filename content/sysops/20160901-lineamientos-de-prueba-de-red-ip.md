@@ -1,6 +1,7 @@
 ---
-title: Lineamientos de Prueba de Red IP (Capa 2/3)
+title: Lineamientos de Prueba de Red IPv4
 created: 2016/09/01
+image: ping.png
 ---
 
 ### Contenido 

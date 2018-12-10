@@ -1,0 +1,290 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 2.0  (Linux)">
+	<META NAME="AUTHOR" CONTENT="Olaf Reitmaier">
+	<META NAME="CREATED" CONTENT="20080716;21471800">
+	<META NAME="CHANGEDBY" CONTENT="Olaf Reitmaier">
+	<META NAME="CHANGED" CONTENT="20080716;21482100">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		P { margin-bottom: 0.21cm }
+		H1 { margin-bottom: 0.21cm }
+		H1.western { font-family: "DejaVu Sans", serif }
+		H1.cjk { font-family: "DejaVu Sans" }
+		H1.ctl { font-family: "DejaVu Sans" }
+		TD P { margin-bottom: 0cm }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="es-VE" DIR="LTR">
+<hr noshade="noshade">
+<table align="center" cellpadding="0" cellspacing="0"><tbody><tr><td>
+  <strong><font size="2">
+    <a href="http://www.linux-on-laptops.com/">Linux Laptops Home</a>
+  </font></strong>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</td></tr></tbody></table>
+<hr noshade="noshade">
+<H1 CLASS="western" ALIGN=CENTER>Installing Ubuntu 7.04 on Acer
+Aspire 3661 WLMi</H1>
+<P ALIGN=CENTER><I>Last updated: March 24th, 2008.</I></P>
+<P>General Hardware Specifications of Acer Aspire 3661 WLMi:</P>
+<TABLE WIDTH=100% BORDER=1 CELLPADDING=2 CELLSPACING=2>
+	<TR>
+		<TD WIDTH=33%>
+			<P ALIGN=CENTER>Hardware Components</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P ALIGN=CENTER>Status under Linux</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P ALIGN=CENTER>Notes</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>Intel Celeron M 410 (1.46 Ghz, 533 MHz FSB, 1 MB L2 Cache)</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>15.4 WXGA Crystal Brite LCD (16ms)</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>Integrated ATI Mobility Xpress 200M (using RAM memory, AGP/PCI
+			configurable) 
+			</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>1 GB, 2 SO DIMM, 512 MB each one. The first by Acer, the second
+			by Hitachi.</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>MK8032GAX 80 GBytes Hard Drive by Toshiba</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>Integrated Acer Orbicam 3 Mpxls by Bison</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Doesn't Work</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Give Up. No open source kernel modules available for this
+			Webcam for now. 
+			</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>Integrated Gigabit Ethernet LAN by Marvell Yukon Chipset</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Integrated AR5005G 802.11b/g Wireless LAN by Atheros</P>
+		</TD>
+		<TD>
+			<P>Works</P>
+		</TD>
+		<TD>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>Integrated HDA 56k Modem by Agere Systems</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Unused by the laptop owner</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No information about in Linux</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>Integrated SDVD8821 DVD-Super Multi double layer (support DVD-R
+			Double Layer/DVD+RW, CD+RW) by Phillips</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>Integrated PS/2 Touchpad by Synaptics</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Integrated PCMCIA PCIxx12 Cardbus Controller by Texas
+			Instruments</P>
+		</TD>
+		<TD>
+			<P>Only used on Windows</P>
+		</TD>
+		<TD>
+			<P>No information about in Linux</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>Integrated PCMCIA PCIxx12 FlashMedia Controller by Texas
+			Instruments</P>
+		</TD>
+		<TD>
+			<P>Works</P>
+		</TD>
+		<TD>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD>
+			<P>USB Bus &amp; Hub (4 Ports)</P>
+		</TD>
+		<TD>
+			<P>Works</P>
+		</TD>
+		<TD>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>14.8V 2000 mAh Lithium-Ion Battery by Sanyo</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>No special procedure required during installation</P>
+		</TD>
+	</TR>
+	<TR>
+		<TD WIDTH=33%>
+			<P>PCI High Definition Audio 883 by Realtek</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Works</P>
+		</TD>
+		<TD WIDTH=33%>
+			<P>Download, compile and install ALSA driver 1.0.14 or better
+			1.0.16 manually, because the ubuntu files doesn't work properly.</P>
+		</TD>
+	</TR>
+</TABLE>
+<P>This laptop is operating under Kernel version [2.6]</P>
+<P><BR><BR>
+</P>
+<P><B>Basic Installation of Ubuntu 7.04</B></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm">Ubuntu is really easy to use but
+	use restricted drivers to make hardware works properly.</P>
+	<LI><P STYLE="margin-bottom: 0cm">Ubuntu is a son of a totally
+	GNU/GPL Debian Linux (<A HREF="http://www.debian.org">www.debian.org</A>).</P>
+	<LI><P>Ubuntu is downloable from <A HREF="http://www.ubuntu.com">www.ubuntu.com</A></P>
+</UL>
+<P><B>Setting up additional features for Ubuntu 7.04</B></P>
+<UL>
+	<LI><P>You must download and install ALSA driver for linux manually
+	from <A HREF="http://www.alsa-project.org">www.alsa-project.org</A>.
+	I tested the versions 1.0.14 y 1.0.16 which make the sound works
+	fine, and if are not sure, I said you that the ALSA files installed
+	by ubuntu doesn't work properly in most cases.</P>
+</UL>
+<P><B>Unresolved issues</B></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm">I can configure and make works
+	properly the integrated webcam, 'lsusb' command shows the Acer
+	Orbicam vendor info, if you wanna try to make it works.</P>
+	<LI><P STYLE="margin-bottom: 0cm">I never use and don't need the
+	modem on Linux.</P>
+	<LI><P>I never try to use my pcmcia's cards on Linux, my cards only
+	works with windows softwares and drivers.</P>
+</UL>
+<P><B>Contact Information</B></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm"><A HREF="mailto:olafrv@gmail.com">olafrv
+	at gmail dot com</A></P>
+	<LI><P><A HREF="http://olafrv.blogspot.com">olafrv.blogpost.com</A></P>
+</UL>
+<P><B>Links</B></P>
+<UL>
+	<LI><P STYLE="margin-bottom: 0cm">Visit the Ubuntu forums at
+	<A HREF="http://www.ubuntu.com">www.ubuntu.com</A>
+	or <A HREF="http://www.google.com/linux">www.google.com/linux</A>
+	it!!!.</P>
+	<LI><P STYLE="margin-bottom: 0cm">Visit <A HREF="www.acer.com">www.acer.com</A>
+	for hardware detailed info.</P>
+	<LI><P>And of course, back to Linux on Laptops! or send me and email
+	as soon as posible.</P>
+</UL>
+<BR>
+<a href="http://www.linux-on-laptops.com/" title="Linux on Laptops">
+	<img src="http://www.linux-on-laptops.com/images/banner1.gif" 
+	alt="Linux On Laptops" 
+	width="468" 
+	height="60" 
+	border="0">
+	</a>
+<BR><BR>
+</BODY>
+</HTML>

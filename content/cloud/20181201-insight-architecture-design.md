@@ -1,5 +1,5 @@
 ---
-title: Intelligence Monitoring & Analytics Architecture
+title: Intelligent Monitoring & Analytics Architecture
 created: 2018/12/01
 image: insight.png
 ---

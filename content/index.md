@@ -1,7 +1,7 @@
 ---
 profile: assets/profile.png # Profile Picture for Header
 og_image: assets/profile.png # Open Graph Image for Link Previews
-description_1: Hybrid IT Solution Architect &amp;<br> Full Stack Software Developer
+description_1: Cloud Native Solutions Architect &amp;<br> Full Stack Software Developer
 description_2: +200 organizations with IT projects & solutions delivered over +15 years
 news_text: News # News Heading
 about_text: About # About Heading

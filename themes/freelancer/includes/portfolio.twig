@@ -10,7 +10,11 @@
             <div class="row">
                 {% for page in pages if page.id starts with 'portfolio/' %}
                     <div class="col-sm-4 portfolio-item">
+                        {% if page.meta.extlink %}
+                        <a href="{{ page.meta.extlink }}" class="portfolio-link" data-toggle="modal">
+                        {% else %}
                         <a href="{{ base_url ~ '/' ~ page.meta.link }}" class="portfolio-link" data-toggle="modal">
+                        {% endif %}
                             <div class="caption">
                                 <div class="caption-content">
                                     <i class="fa fa-search-plus fa-3x"></i>

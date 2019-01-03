@@ -17,6 +17,7 @@ docker exec -it apache-php /bin/bash
 
 apt update
 apt install git
+# https://github.com/settings/keys
 cd /var/www/html/pico 
 curl -sSL https://getcomposer.org/installer | php
 ./vendors

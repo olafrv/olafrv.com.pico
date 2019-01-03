@@ -4,7 +4,7 @@ PICO=c:/olafrv.com.pico
 # Linux
 PICO=~/Documents/Inventos/olafrv.com.pico
 
-# Apache Container
+# Apache Container ---
 
 sudo chmod 666 /var/run/docker.sock
 docker stop apache-php

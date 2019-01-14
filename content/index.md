@@ -2,7 +2,7 @@
 profile: assets/profile.png # Profile Picture for Header
 og_image: assets/profile.png # Open Graph Image for Link Previews
 description_1: Cloud Solutions Architect &amp;<br> Full Stack Software Developer
-description_2: +200 organizations with IT projects & solutions delivered over +15 years
+description_2: +200 organizations with IT projects & solutions delivered over +12 years
 news_text: News # News Heading
 about_text: About # About Heading
 about_1: <h5><table><tr><td><a href="/pico/assets/events/tiii.jpg"><img src="/pico/assets/events/tiii.jpg" width="100%"></a></td></tr></table><br><br>Chief Solution Architect (CSA) working at <a target="_blank" href="https://www.daycohost.com" class="link-w-s">Daycohost</a>.</h5>

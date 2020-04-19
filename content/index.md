@@ -18,7 +18,7 @@ address: # Address Text
   country: Germany
 footer: # Footer Text
   heading: Powered By
-  paragraph: After years using Wordpress, start looking for code versioning, finally get into the mud with <a href="http://www.picocms.org">PicoCMS</a> &amp; <a href="http://startbootstrap.com">Freelancer</a>.
+  paragraph: <a href="http://www.picocms.org">PicoCMS</a> and <a href="http://startbootstrap.com">Freelancer</a> on <a href="https://aws.amazon.com/">AWS</a>.
 social: # Social Networking Icons
   linkedin: https://www.linkedin.com/in/olafrv/
   github:  olafrv

@@ -11,11 +11,11 @@ about_3: <table><tr><td><a href="/pico/assets/events/tiii_rlx.jpg"><img src="/pi
 code: https://github.com/olafrv
 address: # Address Text
   title: Location
-  street: Av. Este 3, Urb. La Candelaria
-  city: Caracas
-  state: DF
-  zip: 1060
-  country: Venezuela
+  #street: Meichelbeckstr. 17A
+  city: Marktoberdorf
+  state: Bayern
+  #zip: 87616
+  country: Germany
 footer: # Footer Text
   heading: Powered By
   paragraph: After years using Wordpress, start looking for code versioning, finally get into the mud with <a href="http://www.picocms.org">PicoCMS</a> &amp; <a href="http://startbootstrap.com">Freelancer</a>.

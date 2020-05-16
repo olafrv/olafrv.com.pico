@@ -1,0 +1,19 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: {{ .Release.Name }}
+  namespace: {{ .Release.Name }}
+  annotations:
+    nginx.ingress.kubernetes.io/ssl-redirect: \"false\"
+spec:
+  rules:
+  - http: 
+      paths:
+      - path: /pico
+        backend:
+          serviceName: {{ .Release.Name }}
+          servicePort: 80
+      - path: /
+        backend:
+          serviceName: {{ .Release.Name }}
+          servicePort: 80

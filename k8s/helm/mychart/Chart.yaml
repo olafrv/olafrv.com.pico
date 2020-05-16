@@ -1,0 +1,12 @@
+apiVersion: v2
+name: olafrv-com-pico
+description: www.olafrv.com/pico
+type: application
+
+# Chart version number should be incremented for changes chart, template or app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 1.0.2
+
+# App version number deployed should be incremented for changes to the application.
+# Versions are not expected to follow Semantic Versioning.
+appVersion: 1.0.2

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 name=olafrv-com-pico
 image=olafrv/$name:1.0.2
 

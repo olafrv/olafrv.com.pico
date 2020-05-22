@@ -26,7 +26,7 @@ minikube addons enable ingress
 kubectl get pods -n kube-system | grep nginx-ingress-controller
 ```
 
-At this moment, you can install optionally [My Preferred K8S Tools](https://github.com/olafrv/k8s/blob/master/999_user_tools.sh) inside the VM.
+At this moment, you can install optionally [My Preferred K8S Tools](https://github.com/olafrv/k8s/blob/master/300_local_user_tools.sh) inside the VM.
 
 If using [Lens K8s IDE](https://github.com/lensapp/lens) in your Desktop, allow it to access the API Server (Using --accept-hosts="RegExp"):
 ```
